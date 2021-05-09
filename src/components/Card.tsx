@@ -13,7 +13,7 @@ const Card:React.FC<CardProps> = ({avatar, name, description, position})=>{
           <img className={avatar?"w-24 h-24 rounded-full mx-auto":"hidden"} src={avatar} alt={`${name}'s photo`} width="384" height="512"/>
           <h3 className={name ? "" : "hidden"}>{name}</h3>
 
-          <h5 className={position ? "font-bold" : "hidden"}>{position.replaceAll(/~/g, " · ")}</h5>
+          <h5 className={position ? "font-bold" : "hidden"}>{position.replace(/~/g, " · ")}</h5>
 
           <p className={description ? "" : "hidden"}>{description}</p>
           
