@@ -8,7 +8,7 @@ export const Navbar:React.FC = ()=>{
     
         <nav className="flex items-center justify-between py-8">
       
-        <a>
+        <a href="/">
           
           <Image src="/edumango-logo.svg" alt="Learning" width={200} height={49} layout="intrinsic" quality={100}/>
         </a>
@@ -18,7 +18,7 @@ export const Navbar:React.FC = ()=>{
         <a href="/about" className="text-accent-secondary"><h4>About Us</h4></a>
         </li>
         <li>
-        <a href="#" className="text-accent-secondary"><h4>Courses</h4></a>
+        <a href="/courses" className="text-accent-secondary"><h4>Courses</h4></a>
         </li>
         {//<li>
           //  <Button color="thirdary">Login</Button>
