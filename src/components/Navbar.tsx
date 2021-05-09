@@ -18,11 +18,12 @@ export const Navbar:React.FC = ()=>{
         <a href="#" className="text-accent-secondary"><h4>About Us</h4></a>
         </li>
         <li>
-        <a href="#" className="text-accent-secondary"><h4>My Courses</h4></a>
+        <a href="#" className="text-accent-secondary"><h4>Courses</h4></a>
         </li>
-        <li>
-            <Button color="thirdary">Login</Button>
-        </li>
+        {//<li>
+          //  <Button color="thirdary">Login</Button>
+        //</li>
+        }
         
 
       </ul>
