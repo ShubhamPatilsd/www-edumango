@@ -10,10 +10,10 @@ export default function AboutUs() {
             <Navbar/>
           </div>
         
-        <div className="text-center">
+        <div className="text-center space-y-6">
             <h1>About Us</h1>
-                <div className="w-96">
-                    <Card/>
+                <div className="w-96 mx-auto">
+                    <Card name="Shubham" avatar="https://cdn.discordapp.com/avatars/705186859105386517/9a49b9a6b096cbf6b41769ca6a2d8893.webp?size=128" description="Very cool gamer" position="Intro to Coding|Co-Website dev"/>
                 </div>
             </div>
       </>
