@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({ avatar, name, description, position }) => {
   return (
     <div className="shadow-md hover:shadow-2xl transition transition-delay-15 ease-in-out px-6 py-6 space-y-3 rounded-xl">
       <img
-        className={avatar ? "w-32 h-32 rounded-full mx-auto" : "hidden"}
+        className={avatar ? "w-32 h-32 border-4 border-accent-primary rounded-full mx-auto" : "hidden"}
         src={avatar}
         alt={`${name}'s photo`}
         
