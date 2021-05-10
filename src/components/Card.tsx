@@ -4,12 +4,13 @@ interface CardProps{
     name?: string;
     description?: string;
     position?: string;
+    className?: string;
 }
 
 
 
-const Card:React.FC<CardProps> = ({avatar, name, description, position})=>{
-    return <div className="shadow-around px-6 py-6 space-y-3 rounded-xl">
+const Card:React.FC<CardProps> = ({avatar, name, description, position, className})=>{
+    return <div className={`shadow transition duration-15 ease-in-out hover:shadow-2xl mx-auto px-6 py-6 space-y-3 rounded-xl col-span-1 ${className}`}>
           
                 <img className={avatar?"w-32 h-32 rounded-full mx-auto":"hidden"} src={avatar} alt={`${name}'s photo`} width="384" height="512"/>
           
