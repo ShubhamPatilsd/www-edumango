@@ -2,28 +2,70 @@ import { Navbar } from "../components/Navbar";
 
 import CourseCard from "../components/CourseCard";
 
+import CourseCardGroup from "../components/CourseCardGroup"
+
+
 export default function Courses() {
+  const CS = [
+    {
+      courseName: "Intro to CAD",
+      courseDescription:
+        "yeet",
+      startingDate: new Date("05 October 2011"),
+    }, 
+    {
+      courseName: "Intro to CS",
+      courseDescription: "CS",
+      startingDate: new Date("010 December 2005")
+    }
+  ];
+
+  const Math = [
+    {
+      courseName: "Algebra 1",
+      courseDescription:
+        "Maffs",
+      startingDate: new Date("05 October 2011"),
+    }, 
+    {
+      courseName: "CC3",
+      courseDescription: "Maffs bad",
+      startingDate: new Date("010 December 2005")
+    }
+  ];
+
   return (
     <>
       <div className="md:px-12 px-4">
         <Navbar />
       </div>
-      <div className="">
-        <div className="text-center">
-          <h1>Courses</h1>
-        </div>
 
-        <div>
-          <h2>Computer Science</h2>
-          <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
-            <CourseCard
-              courseName="Intro to CAD"
-              courseDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst quisque sagittis purus sit amet volutpat. Mattis molestie a iaculis at erat pellentesque adipiscing."
-              startingDate={new Date("05 October 2011")}
-            />
+      <div className="space-y-6">
+        <h1 className="text-center">Courses</h1>
+
+        
+          <div className="md:px-12">
+            <CourseCardGroup groupTitle = "CS" > 
+            {CS.map(({ courseName, courseDescription, startingDate}, i) => {
+              return (
+                  <CourseCard courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+              );
+              
+            })}
+            </CourseCardGroup>
+            
+            <CourseCardGroup groupTitle = "Math"> 
+            {Math.map(({ courseName, courseDescription, startingDate}, i) => {
+              return (
+                  <CourseCard courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+              );
+              
+            })}
+            </CourseCardGroup>
           </div>
+      
         </div>
-      </div>
+      
     </>
   );
 }
