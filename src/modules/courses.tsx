@@ -44,11 +44,11 @@ export default function Courses() {
         <h1 className="text-center">Courses</h1>
 
         
-          <div className="md:px-12">
+          <div className="md:px-12 px-4 space-y-6">
             <CourseCardGroup groupTitle = "CS" > 
             {CS.map(({ courseName, courseDescription, startingDate}, i) => {
               return (
-                  <CourseCard courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
               );
               
             })}
@@ -57,7 +57,7 @@ export default function Courses() {
             <CourseCardGroup groupTitle = "Math"> 
             {Math.map(({ courseName, courseDescription, startingDate}, i) => {
               return (
-                  <CourseCard courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
               );
               
             })}
