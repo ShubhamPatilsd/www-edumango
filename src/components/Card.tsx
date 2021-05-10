@@ -5,7 +5,7 @@ interface CardProps {
   description?: string;
   position?: string;
 }
-// col-span-1
+
 const Card: React.FC<CardProps> = ({ avatar, name, description, position }) => {
   return (
     <div className="shadow-md hover:shadow-2xl transition transition-delay-15 ease-in-out px-6 py-6 space-y-3 rounded-xl">
