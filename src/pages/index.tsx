@@ -1,5 +1,3 @@
-
-import Landing from '../modules/landing';
+import Landing from "../modules/landing";
 
 export default Landing;
-
