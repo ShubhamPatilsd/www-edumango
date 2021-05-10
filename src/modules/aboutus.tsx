@@ -8,7 +8,7 @@ export default function AboutUs() {
       avatar:
         "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
       description:
-        "Rising Freshman at American High School passionate about helping the community through education. Interested in Biology and US History",
+        "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History",
       position: "Founder~6th Grade Math",
     },
     {
@@ -40,7 +40,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841455384526323752/unknown.png",
         description:
-          "Rising freshmen at Irvington who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyma (Indian Dance), and art.",
+          "Rising freshmen at Irvington who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
         position: "Outreach Lead~Literature",
       },
       {
