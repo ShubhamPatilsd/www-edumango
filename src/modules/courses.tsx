@@ -11,12 +11,12 @@ export default function Courses() {
       courseName: "Intro to CAD",
       courseDescription:
         "yeet",
-      startingDate: new Date("05 October 2011"),
+      startingDate: new Date("05 October 2011 11:30"),
     }, 
     {
       courseName: "Intro to CS",
       courseDescription: "CS",
-      startingDate: new Date("010 December 2005")
+      startingDate: new Date("010 December 2005 12:10")
     }
   ];
 
@@ -25,12 +25,12 @@ export default function Courses() {
       courseName: "Algebra 1",
       courseDescription:
         "Maffs",
-      startingDate: new Date("05 October 2011"),
+      startingDate: new Date("05 October 2011 1:30 PM"),
     }, 
     {
       courseName: "CC3",
       courseDescription: "Maffs bad",
-      startingDate: new Date("010 December 2005")
+      startingDate: new Date("010 December 2005 2:15 PM")
     }
   ];
 

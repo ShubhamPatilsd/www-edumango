@@ -21,6 +21,8 @@ const numberToMonth = [
   "December",
 ];
 
+
+
 //put calendar icon
 
 const CourseCard: React.FC<CourseCardProps> = ({
@@ -28,6 +30,16 @@ const CourseCard: React.FC<CourseCardProps> = ({
   courseDescription,
   startingDate,
 }) => {
+  function AMPMTime(){
+    let result: string = "";
+    if(startingDate.getHours()>12){
+      let nonMillitaryTime: number = startingDate.getHours()-12;
+      result = `${numberToMonth[startingDate.getMonth()]} ${startingDate.getDay()}, ${startingDate.getFullYear()} at ${nonMillitaryTime}:${startingDate.getMinutes()} PM (PST)`
+    }else{
+      result = `${numberToMonth[startingDate.getMonth()]} ${startingDate.getDay()}, ${startingDate.getFullYear()} at ${startingDate.getHours().toString()}:${startingDate.getMinutes()} AM (PST)`
+    }
+    return result
+  }
   return (
     <div className="text-left px-6 py-6 space-y-3 rounded-xl shadow-md hover:shadow-2xl transition transition-delay-15 ease-in-out">
       <h3 className={courseName ? "" : "hidden"}>{courseName}</h3>
@@ -38,9 +50,9 @@ const CourseCard: React.FC<CourseCardProps> = ({
         }
       >
         <img src="/event_icon.svg" />
-        <p>{`${
-          numberToMonth[startingDate.getMonth()]
-        } ${startingDate.getDay()}, ${startingDate.getFullYear()} PST`}</p>
+
+
+        <p>{AMPMTime()}</p>
       </h5>
 
       <p className={courseDescription ? "" : "hidden"}>{courseDescription}</p>
