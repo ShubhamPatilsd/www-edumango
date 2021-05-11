@@ -160,12 +160,12 @@ export default function AboutUs() {
         <Navbar />
       </div>
 
-      <div className="space-y-6 mb-6">
+      <div className="space-y-6 md:px-12 px-4 mb-6">
         <h1 className="text-center">Meet the Mangoes</h1>
         <p className="text-center">These are the people who organize and help run EduMango!</p>
 
         <div className="md:px-12 space-y-9 max-w-screen-xl mx-auto px-4 ">
-            <div>
+            <div className="space-y-4">
             <h2>Lead Staff</h2>
             <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
             {leadStaffProfiles.map(({ name, avatar, description, position }, i) => {
@@ -182,7 +182,7 @@ export default function AboutUs() {
             </div>
             </div>
 
-            <div>
+            <div className="space-y-4">
                 <h2>Website Developers</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {webDevProfiles.map(({ name, avatar, description, position }, i) => {
@@ -199,7 +199,7 @@ export default function AboutUs() {
                 </div>
             </div>
 
-            <div>
+            <div className="space-y-4">
                 <h2>Instructors</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {instructorProfiles.map(({ name, avatar, description, position }, i) => {
