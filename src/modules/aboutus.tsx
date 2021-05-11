@@ -9,7 +9,7 @@ export default function AboutUs() {
         "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
       description:
         "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History",
-      position: "Founder~6th Grade Math",
+      position: "Founder~Math 6",
     },
     {
       name: "Devansh Daxini",
@@ -24,7 +24,7 @@ export default function AboutUs() {
       avatar:
         "https://media.discordapp.net/attachments/832365353660317726/841454173882155008/unknown.png",
       description:
-        "Rising freshmen at Foothill High School who loves building, coding, and biking. Enjoys learning new things, and sharing the knowledge with others",
+        "Rising freshman at Foothill High School who loves building, coding, and biking. Enjoys learning new things, and sharing the knowledge with others",
       position: "Curriculum Lead ~ Spanish 2",
     },
     {
@@ -32,7 +32,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841454813786275880/unknown.png",
         description:
-          "Rising freshmen at Irvington. Passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance)",
+          "8th grader at Horner Junior High School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance)",
         position: "Co-Curriculum Lead ~ Literature",
       },
       {
@@ -40,8 +40,16 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841455384526323752/unknown.png",
         description:
-          "Rising freshmen at Irvington who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
+          "8th grader at Horner Junior High School who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
         position: "Outreach Lead~Literature",
+      },
+      {
+        name: "Shubham Patil",
+        avatar:
+          "https://cdn.discordapp.com/attachments/832365353660317726/841460312048795668/person.png",
+        description:
+          "Rising Freshman at Mission San Jose High School who is enjoys programming in his free time. Enjoys eating food, playing videogames, and watching movies as well. He is very curious and likes to learn new things.",
+        position: "Web Development~Intro to Coding",
       },
       {
         name: "Nikhil Mehta",
@@ -52,6 +60,14 @@ export default function AboutUs() {
         position: "Web Development~Intro to CAD",
       },
       {
+        name: "Akshat Gupta",
+        avatar:
+          "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
+        description:
+          "Rising Freshman at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history",
+        position: "Marketing~Spanish 1~Chess",
+      },
+      {
         name: "Rishabh Mahesh",
         avatar:
           "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
@@ -59,20 +75,13 @@ export default function AboutUs() {
           "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
         position: "Speech and Debate~Algebra 1",
       },
-      {
-        name: "Akshat Gupta",
-        avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
-        description:
-          "Rising Freshmen at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history",
-        position: "Marketing~Spanish 1~Chess",
-      },
+      
       {
         name: "Kaeyaa Sane",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841456554058448946/unknown.png",
         description:
-          "Rising Freshman at Washington High School. Loves to swim, dance, sing, and make videos. Has more than 500 subscribers on YT.",
+          "Rising Freshman at Washington High School. Loves to swim, dance, sing, and make videos. Has more than 500 subscribers on YouTube.",
         position: "Spanish 2~Video Editing",
       },
       {
@@ -96,7 +105,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841457774982594570/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School. Enjoys making music, doing any style of art, roller skating, and reading. Loves spending time with my family and helping out whenever I can.",
+          "Rising Freshman at Mission San Jose High School. Enjoys making music, doing any style of art, roller skating, and reading. Loves spending time with my family and helping out whenever she can.",
         position: "Math 5",
       },
       {
@@ -120,7 +129,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841458631403896833/unknown.png",
         description:
-          "Rising freshmen at Washington High School. Favorite hobby is playing basketball. Favorite subjects are Math and Science Enjoys hanging out with friends and reading. ",
+          "Rising freshman at Washington High School. Favorite hobby is playing basketball. Favorite subjects are Math and Science Enjoys hanging out with friends and reading. ",
         position: "Pre-Algebra~Video Editing",
       },
       {
@@ -128,7 +137,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841458907310587914/unknown.png",
         description:
-          "Rising freshman at Mission San Jose High School. In his spare time, likes playing the tabla, playing tennis, listening to music, and gardening. Enjoy coding, robotics, and hanging out with my friends.",
+          "Rising freshman at Mission San Jose High School. In his spare time, likes playing the tabla, playing tennis, listening to music, and gardening. Enjoys coding, robotics, and hanging out with my friends.",
         position: "Algebra 1",
       },
   ];
