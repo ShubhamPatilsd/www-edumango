@@ -12,7 +12,7 @@ const CourseCardGroup: React.FC<CourseCardGroupProps> = ({
 }) => {
   return (
     <div>
-      <h2>{groupTitle}</h2>
+      <h2 className="text-accent-primary">{groupTitle}</h2>
       <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
         {children}
       </div>

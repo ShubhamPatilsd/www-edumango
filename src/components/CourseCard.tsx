@@ -3,7 +3,7 @@ import React from "react";
 interface CourseCardProps {
   courseName: string;
   courseDescription: string;
-  startingDate?: Date;
+  startingDate: Date;
 }
 
 const numberToMonth = [
@@ -42,7 +42,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
   }
   return (
     <div className="text-left px-6 py-6 space-y-3 rounded-xl shadow-md hover:shadow-2xl transition transition-delay-15 ease-in-out">
-      <h3 className={courseName ? "" : "hidden"}>{courseName}</h3>
+      <h3 className={courseName ? "" : "hidden "}>{courseName}</h3>
 
       <h5
         className={

@@ -59,7 +59,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841455861925937242/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School who likes to play baseball, code, and enjoys doing CAD. Enjoys reading about human physiology as well as making apps. ",
+          "Rising Freshman at Mission San Jose High School who likes to play baseball, code, and enjoys doing CAD. Enjoys making apps and learning new skills.",
         position: "Web Development~Intro to CAD",
       },
   ]
@@ -74,11 +74,7 @@ export default function AboutUs() {
         position: "Marketing~Spanish 1~Chess",
       },
   ]
-  const instructorProfiles = [
-    
-    
-      
-      
+  const instructorProfiles = [      
       {
         name: "Rishabh Mahesh",
         avatar:
@@ -162,11 +158,11 @@ export default function AboutUs() {
 
       <div className="space-y-6 md:px-12 px-4 mb-6">
         <h1 className="text-center">Meet the Mangoes</h1>
-        <p className="text-center">These are the people who organize and help run EduMango!</p>
+        <p className="text-center" >These are the people who organize and help run EduMango!</p>
 
         <div className="md:px-12 space-y-9 max-w-screen-xl mx-auto px-4 ">
             <div className="space-y-4">
-            <h2>Lead Staff</h2>
+            <h2 className="text-accent-primary">Lead Staff</h2>
             <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
             {leadStaffProfiles.map(({ name, avatar, description, position }, i) => {
               return (
@@ -183,7 +179,7 @@ export default function AboutUs() {
             </div>
 
             <div className="space-y-4">
-                <h2>Website Developers</h2>
+                <h2 className="text-accent-primary">Website Developers</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {webDevProfiles.map(({ name, avatar, description, position }, i) => {
                   return (
@@ -200,7 +196,7 @@ export default function AboutUs() {
             </div>
 
             <div className="space-y-4">
-                <h2>Instructors</h2>
+                <h2 className="text-accent-primary">Instructors</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {instructorProfiles.map(({ name, avatar, description, position }, i) => {
                   return (
@@ -217,8 +213,6 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        
-      
     </>
   );
 }
