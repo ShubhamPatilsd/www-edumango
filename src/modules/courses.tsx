@@ -128,7 +128,7 @@ export default function Courses() {
         
           <div className="md:px-12 px-4 space-y-6">
 
-          <CourseCardGroup groupTitle = "Language" > 
+          <CourseCardGroup groupTitle = "Language" note="Note: You can only take 1 language class"> 
             {language.map(({ courseName, courseDescription, startingDate, grades}, i) => {
               return (
                   <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades}/>
