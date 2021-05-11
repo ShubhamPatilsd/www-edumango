@@ -2,48 +2,51 @@ import { Navbar } from "../components/Navbar";
 import Card from "../components/Card";
 
 export default function AboutUs() {
-  const profiles = [
+  
+  const leadStaffProfiles = [
     {
-      name: "Ishan Patel",
-      avatar:
-        "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
-      description:
-        "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History",
-      position: "Founder~Math 6",
-    },
-    {
-      name: "Devansh Daxini",
-      avatar:
-        "https://cdn.discordapp.com/attachments/832365353660317726/841128925266837565/unknown.png",
-      description:
-        "Rising Freshman at Washington High School who enjoys playing basketball. His favorite subject is math. Loves playing video games and enjoys video editing.",
-      position: "Co-Founder~Spanish 1",
-    },
-    {
-      name: "Bhagya Arora",
-      avatar:
-        "https://media.discordapp.net/attachments/832365353660317726/841454173882155008/unknown.png",
-      description:
-        "Rising freshman at Foothill High School who loves building, coding, and biking. Enjoys learning new things, and sharing the knowledge with others",
-      position: "Curriculum Lead ~ Spanish 2",
-    },
-    {
-        name: "Rushika Raval",
+        name: "Ishan Patel",
         avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841454813786275880/unknown.png",
+          "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
         description:
-          "8th grader at Horner Junior High School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance)",
-        position: "Co-Curriculum Lead ~ Literature",
+          "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History",
+        position: "Founder~Math 6",
       },
       {
-        name: "Tithi Raval",
+        name: "Devansh Daxini",
         avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841455384526323752/unknown.png",
+          "https://cdn.discordapp.com/attachments/832365353660317726/841128925266837565/unknown.png",
         description:
-          "8th grader at Horner Junior High School who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
-        position: "Outreach Lead~Literature",
+          "Rising Freshman at Washington High School who enjoys playing basketball. His favorite subject is math. Loves playing video games and enjoys video editing.",
+        position: "Co-Founder~Spanish 1",
+      },
+    {
+        name: "Bhagya Arora",
+        avatar:
+          "https://media.discordapp.net/attachments/832365353660317726/841454173882155008/unknown.png",
+        description:
+          "Rising freshman at Foothill High School who loves building, coding, and biking. Enjoys learning new things, and sharing the knowledge with others",
+        position: "Curriculum Lead ~ Spanish 2",
       },
       {
+          name: "Rushika Raval",
+          avatar:
+            "https://media.discordapp.net/attachments/832365353660317726/841454813786275880/unknown.png",
+          description:
+            "8th grader at Horner Junior High School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance)",
+          position: "Co-Curriculum Lead ~ Literature",
+        },
+        {
+          name: "Tithi Raval",
+          avatar:
+            "https://media.discordapp.net/attachments/832365353660317726/841455384526323752/unknown.png",
+          description:
+            "8th grader at Horner Junior High School who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
+          position: "Outreach Lead~Literature",
+        },
+  ]
+  const webDevProfiles = [
+    {
         name: "Shubham Patil",
         avatar:
           "https://cdn.discordapp.com/attachments/832365353660317726/841460312048795668/person.png",
@@ -59,7 +62,10 @@ export default function AboutUs() {
           "Rising Freshman at Mission San Jose High School who likes to play baseball, code, and enjoys doing CAD. Enjoys reading about human physiology as well as making apps. ",
         position: "Web Development~Intro to CAD",
       },
-      {
+  ]
+
+  const marketingProfiles = [
+    {
         name: "Akshat Gupta",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
@@ -67,6 +73,12 @@ export default function AboutUs() {
           "Rising Freshman at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history",
         position: "Marketing~Spanish 1~Chess",
       },
+  ]
+  const instructorProfiles = [
+    
+    
+      
+      
       {
         name: "Rishabh Mahesh",
         avatar:
@@ -149,11 +161,14 @@ export default function AboutUs() {
       </div>
 
       <div className="space-y-6 mb-6">
-        <h1 className="text-center">About Us</h1>
+        <h1 className="text-center">Meet the Mangoes</h1>
+        <p className="text-center">These are the people who organize and help run EduMango!</p>
 
-        
-          <div className="md:px-12  max-w-screen-xl mx-auto px-4 grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
-            {profiles.map(({ name, avatar, description, position }, i) => {
+        <div className="md:px-12 space-y-9 max-w-screen-xl mx-auto px-4 ">
+            <div>
+            <h2>Lead Staff</h2>
+            <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
+            {leadStaffProfiles.map(({ name, avatar, description, position }, i) => {
               return (
                 <Card
                   key={i}
@@ -164,8 +179,45 @@ export default function AboutUs() {
                 />
               );
             })}
+            </div>
+            </div>
+
+            <div>
+                <h2>Website Developers</h2>
+                <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
+                {webDevProfiles.map(({ name, avatar, description, position }, i) => {
+                  return (
+                    <Card
+                      key={i}
+                      name={name}
+                      avatar={avatar}
+                      description={description}
+                      position={position}
+                    />
+                  );
+                })}
+                </div>
+            </div>
+
+            <div>
+                <h2>Instructors</h2>
+                <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
+                {instructorProfiles.map(({ name, avatar, description, position }, i) => {
+                  return (
+                    <Card
+                      key={i}
+                      name={name}
+                      avatar={avatar}
+                      description={description}
+                      position={position}
+                    />
+                  );
+                })}
+                </div>
+            </div>
           </div>
         </div>
+        
       
     </>
   );
