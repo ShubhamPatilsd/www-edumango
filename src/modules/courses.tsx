@@ -86,7 +86,7 @@ export default function Courses() {
       grades: [5, 7]
     }, 
     {
-      courseName: "Speech and Debate",
+      courseName: "Speech & Debate",
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 11:30"),
@@ -122,7 +122,8 @@ export default function Courses() {
 
       <div className="space-y-6">
         <h1 className="text-center">Courses</h1>
-        <h4 className="text-center">All of the Grades listed are referring to the student's grade for the 2021-2022 school year.</h4>
+        <h4 className="text-center">Click any of the courses below to register for that specific class.</h4>
+        <p className="text-center">*All of the grades listed are referring to the student's grade for the 2021-2022 school year.</p>
 
         
           <div className="md:px-12 px-4 space-y-6">
