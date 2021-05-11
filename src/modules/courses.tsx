@@ -13,16 +13,19 @@ export default function Courses() {
       courseDescription:
         "PlaceHolder Decriptiom",
       startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }, 
     {
       courseName: "Spanish 2",
       courseDescription: "PlaceHolder Description",
-      startingDate: new Date("05 October 2011 11:30")
+      startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     },
     {
       courseName: "French 1",
       courseDescription: "PlaceHolder Description",
-      startingDate: new Date("05 October 2011 11:30")
+      startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }
   ];
 
@@ -32,24 +35,28 @@ export default function Courses() {
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 1:30 PM"),
+      grades: [5, 7]
     },
     {
       courseName: "Math Grade 6",
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 1:30 PM"),
+      grades: [5, 7]
     },
     {
       courseName: "Pre-Algebra",
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 1:30 PM"),
+      grades: [5, 7]
     },
     {
       courseName: "Algebra 1",
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 1:30 PM"),
+      grades: [5, 7]
     }, 
   ];
 
@@ -59,12 +66,14 @@ export default function Courses() {
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }, 
     {
       courseName: "Intro to Coding",
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }, 
   ];
 
@@ -74,12 +83,14 @@ export default function Courses() {
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }, 
     {
       courseName: "Speech and Debate",
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }, 
   ];
 
@@ -89,12 +100,14 @@ export default function Courses() {
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }, 
     {
       courseName: "Chess",
       courseDescription:
         "PlaceHolder Description",
       startingDate: new Date("05 October 2011 11:30"),
+      grades: [5, 7]
     }, 
   ];
 
@@ -109,50 +122,51 @@ export default function Courses() {
 
       <div className="space-y-6">
         <h1 className="text-center">Courses</h1>
+        <h4 className="text-center">All of the Grades listed are referring to the student's grade for the 2021-2022 school year.</h4>
 
         
           <div className="md:px-12 px-4 space-y-6">
 
           <CourseCardGroup groupTitle = "Language" > 
-            {language.map(({ courseName, courseDescription, startingDate}, i) => {
+            {language.map(({ courseName, courseDescription, startingDate, grades}, i) => {
               return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades}/>
               );
               
             })}
             </CourseCardGroup>
 
             <CourseCardGroup groupTitle = "Math"> 
-            {math.map(({ courseName, courseDescription, startingDate}, i) => {
+            {math.map(({ courseName, courseDescription, startingDate, grades}, i) => {
               return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades}/>
               );
               
             })}
             </CourseCardGroup>
 
             <CourseCardGroup groupTitle = "Engineering" > 
-            {engineering.map(({ courseName, courseDescription, startingDate}, i) => {
+            {engineering.map(({ courseName, courseDescription, startingDate, grades}, i) => {
               return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades}/>
               );
               
             })}
             </CourseCardGroup>
 
             <CourseCardGroup groupTitle = "ELA"> 
-            {ela.map(({ courseName, courseDescription, startingDate}, i) => {
+            {ela.map(({ courseName, courseDescription, startingDate, grades}, i) => {
               return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades}/>
               );
               
             })}
             </CourseCardGroup>
 
             <CourseCardGroup groupTitle = "Extra Curricular"> 
-            {extraCirricular.map(({ courseName, courseDescription, startingDate}, i) => {
+            {extraCirricular.map(({ courseName, courseDescription, startingDate, grades}, i) => {
               return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate}/>
+                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades}/>
               );
               
             })}

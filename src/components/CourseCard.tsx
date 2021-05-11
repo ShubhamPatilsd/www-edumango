@@ -4,6 +4,7 @@ interface CourseCardProps {
   courseName: string;
   courseDescription: string;
   startingDate: Date;
+  grades: number[]
 }
 
 const numberToMonth = [
@@ -29,6 +30,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
   courseName,
   courseDescription,
   startingDate,
+  grades,
 }) => {
   function AMPMTime(){
     let result: string = "";
@@ -56,6 +58,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
       </h5>
 
       <p className={courseDescription ? "" : "hidden"}>{courseDescription}</p>
+      <p>Grades {Math.min(...grades)}-{Math.max(...grades)}</p>
     </div>
   );
 };
