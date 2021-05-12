@@ -164,7 +164,7 @@ export default function AboutUs() {
         <Navbar />
       </div>
 
-      <div className="space-y-6 md:px-12 px-4 mb-6">
+      <div className="space-y-6 md:px-12 px-4 md:mb-12 mb-4">
         <h1 className="text-center">Meet the Mangoes</h1>
         <p className="text-center" >These are the people who organize and help run EduMango!</p>
 

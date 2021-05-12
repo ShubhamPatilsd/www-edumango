@@ -4,7 +4,8 @@ import Image from "next/image";
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between py-8">
+    
+    <nav className="flex bg-white  items-center justify-between py-8">
       <a href="/">
         <Image
           src="/edumango-logo.svg"
@@ -29,5 +30,6 @@ export const Navbar: React.FC = () => {
         </li>
       </ul>
     </nav>
+    
   );
 };

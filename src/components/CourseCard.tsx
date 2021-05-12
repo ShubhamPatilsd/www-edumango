@@ -1,10 +1,12 @@
 import React from "react";
 
+//make link mandatory
 interface CourseCardProps {
   courseName: string;
   courseDescription: string;
   startingDate: Date;
-  grades: number[]
+  grades: number[];
+  link?: string;
 }
 
 const numberToMonth = [
@@ -31,6 +33,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
   courseDescription,
   startingDate,
   grades,
+  link
 }) => {
   function AMPMTime(){
     let result: string = "";
@@ -43,7 +46,8 @@ const CourseCard: React.FC<CourseCardProps> = ({
     return result
   }
   return (
-    <div className="text-left px-6 py-6 space-y-3 rounded-xl shadow-md hover:shadow-2xl transition transition-delay-15 ease-in-out">
+    <a href={link ? link: null} target="_blank">
+    <div className="text-left px-6 py-6 space-y-3 rounded-xl shadow-md border border-gray-100 hover:shadow-2xl transition transition-delay-15 ease-in-out">
       <h3 className={courseName ? "" : "hidden "}>{courseName}</h3>
 
       <h5
@@ -58,8 +62,9 @@ const CourseCard: React.FC<CourseCardProps> = ({
       </h5>
 
       <p className={courseDescription ? "" : "hidden"}>{courseDescription}</p>
-      <p>Grades {Math.min(...grades)}-{Math.max(...grades)}</p>
+      <p>{grades.length==1 ? `Grade ${grades[0]}`:`Grades ${Math.min(...grades)}-${Math.max(...grades)}`}</p>
     </div>
+    </a>
   );
 };
 
