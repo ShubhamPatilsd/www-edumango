@@ -51,7 +51,7 @@ export default function AboutUs() {
         avatar:
           "https://cdn.discordapp.com/attachments/832365353660317726/841460312048795668/person.png",
         description:
-          "Rising Freshman at Mission San Jose High School who is enjoys programming in his free time. Enjoys eating food, playing videogames, and watching movies as well. He is very curious and likes to learn new things.",
+          "Rising Freshman at Mission San Jose High School who enjoys programming. Enjoys trying and new eating food from multiple cuisines, playing videogames, and watching movies as well. He is very curious and likes to learn new things about technology.",
         position: "Web Development~Intro to Coding",
       },
       {
@@ -72,6 +72,14 @@ export default function AboutUs() {
         description:
           "Rising Freshman at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history",
         position: "Marketing~Spanish 1~Chess",
+      },
+      {
+        name: "Abhimanyu Sharma",
+        avatar:
+          "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
+        description:
+          "Rising Freshman at Mission San Jose High School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+        position: "Marketing~Speech and Debate~Chess",
       },
   ]
   const instructorProfiles = [      
@@ -182,6 +190,23 @@ export default function AboutUs() {
                 <h2 className="text-accent-primary">Website Developers</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {webDevProfiles.map(({ name, avatar, description, position }, i) => {
+                  return (
+                    <Card
+                      key={i}
+                      name={name}
+                      avatar={avatar}
+                      description={description}
+                      position={position}
+                    />
+                  );
+                })}
+                </div>
+            </div>
+            
+            <div className="space-y-4">
+                <h2 className="text-accent-primary">Marketing</h2>
+                <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
+                {marketingProfiles.map(({ name, avatar, description, position }, i) => {
                   return (
                     <Card
                       key={i}
