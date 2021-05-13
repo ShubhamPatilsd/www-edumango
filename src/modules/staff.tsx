@@ -9,7 +9,7 @@ export default function AboutUs() {
         avatar:
           "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
         description:
-          "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History",
+          "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History.",
         position: "Founder~Math 6",
       },
       {
@@ -25,16 +25,16 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841454173882155008/unknown.png",
         description:
-          "Rising freshman at Foothill High School who loves building, coding, and biking. Enjoys learning new things, and sharing the knowledge with others",
-        position: "Curriculum Lead ~ Spanish 2",
+          "Rising freshman at Foothill High School who loves building, coding, and biking. Enjoys learning new things, and sharing the knowledge with others.",
+        position: "Curriculum Lead~Marketing~Spanish 2",
       },
       {
           name: "Rushika Raval",
           avatar:
             "https://media.discordapp.net/attachments/832365353660317726/841454813786275880/unknown.png",
           description:
-            "8th grader at Horner Junior High School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance)",
-          position: "Co-Curriculum Lead ~ Literature",
+            "8th grader at Horner Junior High School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance).",
+          position: "Co-Curriculum Lead~Literature",
         },
         {
           name: "Tithi Raval",
@@ -70,7 +70,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history",
+          "Rising Freshman at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
         position: "Marketing~Spanish 1~Chess",
       },
       {
@@ -82,40 +82,49 @@ export default function AboutUs() {
         position: "Marketing~Speech and Debate~Chess",
       },
   ]
-  const instructorProfiles = [      
-      {
-        name: "Rishabh Mahesh",
+
+  const socialMediaProfiles = [
+        {
+        name: "Sanjay Vijay",
         avatar:
-          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
+          "https://media.discordapp.net/attachments/832365353660317726/841457456420880405/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
-        position: "Speech and Debate~Algebra 1",
+          "Rising freshman at Washington High School. Loves basketball, editing, and I play for a state ranked basketball team. Loves biology and learning about human anatomy.",
+        position: "Social Media~Video Editing~French",
       },
-      
       {
         name: "Kaeyaa Sane",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841456554058448946/unknown.png",
         description:
           "Rising Freshman at Washington High School. Loves to swim, dance, sing, and make videos. Has more than 500 subscribers on YouTube.",
-        position: "Spanish 2~Video Editing",
+        position: "Social Media~Spanish 2~Video Editing",
       },
+      {
+        name: "Ishaan Awasthi",
+        avatar:
+          "https://media.discordapp.net/attachments/832365353660317726/841458011967848468/unknown.png",
+        description:
+          "Rising Freshman at Mission San Jose High School. Extremely passionate about guitar and music production! Favorite subject is English, and has a dream is to be an attorney.",
+        position: "Social Media~Math 6",
+      },
+
+
+  ]
+
+  const instructorProfiles = [      
+      
+      
+      
       {
         name: "Moksha Rawlani",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841456928714784778/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School. Enjoys reading, science, and math. Likes Indian classical dance and singing as well as tennis and playing the viola",
+          "Rising Freshman at Mission San Jose High School. Enjoys reading, science, and math. Likes Indian classical dance and singing as well as tennis and playing the viola.",
         position: "Math 5",
       },
-      {
-        name: "Sanjay Vijay",
-        avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841457456420880405/unknown.png",
-        description:
-          "Rising freshman at Washington High School. Loves basketball, editing, and I play for a state ranked basketball team. Loves biology and learning about human anatomy",
-        position: "Video Editing~French",
-      },
+      
       {
         name: "Kayona Verma",
         avatar:
@@ -124,20 +133,13 @@ export default function AboutUs() {
           "Rising Freshman at Mission San Jose High School. Enjoys making music, doing any style of art, roller skating, and reading. Loves spending time with my family and helping out whenever she can.",
         position: "Math 5",
       },
-      {
-        name: "Ishaan Awasthi",
-        avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841458011967848468/unknown.png",
-        description:
-          "Rising Freshman at Mission San Jose High School. Extremely passionate about guitar and music production! Favorite subject is English, and has a dream is to be an attorney.",
-        position: "Math 6",
-      },
+      
       {
         name: "Utsav Agarwal",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841458341939380234/unknown.png",
         description:
-          "Rising freshman and Mission San Jose High School. Likes coding/robotics, math, and science. Participated in a school science bowl team and in multiple robotics competitions",
+          "Rising freshman and Mission San Jose High School. Likes coding/robotics, math, and science. Participated in a school science bowl team and in multiple robotics competitions.",
         position: "Pre-Algebra",
       },
       {
@@ -207,6 +209,23 @@ export default function AboutUs() {
                 <h2 className="text-accent-primary">Marketing</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {marketingProfiles.map(({ name, avatar, description, position }, i) => {
+                  return (
+                    <Card
+                      key={i}
+                      name={name}
+                      avatar={avatar}
+                      description={description}
+                      position={position}
+                    />
+                  );
+                })}
+                </div>
+            </div>
+
+            <div className="space-y-4">
+                <h2 className="text-accent-primary">Social Media</h2>
+                <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
+                {socialMediaProfiles.map(({ name, avatar, description, position }, i) => {
                   return (
                     <Card
                       key={i}
