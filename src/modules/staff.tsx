@@ -81,10 +81,7 @@ export default function AboutUs() {
           "Rising Freshman at Mission San Jose High School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
         position: "Marketing~Speech and Debate~Chess",
       },
-  ]
-
-  const socialMediaProfiles = [
-        {
+      {
         name: "Sanjay Vijay",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841457456420880405/unknown.png",
@@ -108,9 +105,8 @@ export default function AboutUs() {
           "Rising Freshman at Mission San Jose High School. Extremely passionate about guitar and music production! Favorite subject is English, and has a dream is to be an attorney.",
         position: "Social Media~Math 6",
       },
-
-
   ]
+
 
   const instructorProfiles = [      
       
@@ -149,6 +145,14 @@ export default function AboutUs() {
         description:
           "Rising freshman at Washington High School. Favorite hobby is playing basketball. Favorite subjects are Math and Science Enjoys hanging out with friends and reading. ",
         position: "Pre-Algebra~Video Editing",
+      },
+      {
+        name: "Rishabh Mahesh",
+        avatar:
+          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
+        description:
+          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
+        position: "Speech and Debate~Algebra 1",
       },
       {
         name: "Rishabh Manur",
@@ -222,22 +226,6 @@ export default function AboutUs() {
                 </div>
             </div>
 
-            <div className="space-y-4">
-                <h2 className="text-accent-primary">Social Media</h2>
-                <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
-                {socialMediaProfiles.map(({ name, avatar, description, position }, i) => {
-                  return (
-                    <Card
-                      key={i}
-                      name={name}
-                      avatar={avatar}
-                      description={description}
-                      position={position}
-                    />
-                  );
-                })}
-                </div>
-            </div>
 
             <div className="space-y-4">
                 <h2 className="text-accent-primary">Instructors</h2>
