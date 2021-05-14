@@ -133,13 +133,13 @@ export default function Courses() {
         <Navbar />
       </div>
 
-      <div className="space-y-6 md:mb-12 mb-4">
+      <div className="space-y-6 md:px-12 px-4 md:mb-12 mb-4">
         <h1 className="text-center">Courses</h1>
         <h4 className="text-center">Click any of the courses below to register for that specific class.</h4>
         <p className="text-center">*All of the grades listed are referring to the student's grade for the 2021-2022 school year.</p>
 
         
-          <div className="md:px-12 px-4 space-y-6">
+          <div className="space-y-6">
 
           <CourseCardGroup groupTitle = "Language" note="Note: You can only take 1 language class"> 
             {language.map(({ courseName, courseDescription, startingDate, grades, link}, i) => {

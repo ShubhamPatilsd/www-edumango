@@ -82,6 +82,14 @@ export default function AboutUs() {
         position: "Marketing~Speech and Debate~Chess",
       },
       {
+        name: "Rishabh Mahesh",
+        avatar:
+          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
+        description:
+          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
+        position: "Marketing~Speech and Debate~Algebra 1",
+      },
+      {
         name: "Sanjay Vijay",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841457456420880405/unknown.png",
@@ -146,14 +154,7 @@ export default function AboutUs() {
           "Rising freshman at Washington High School. Favorite hobby is playing basketball. Favorite subjects are Math and Science Enjoys hanging out with friends and reading. ",
         position: "Pre-Algebra~Video Editing",
       },
-      {
-        name: "Rishabh Mahesh",
-        avatar:
-          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
-        description:
-          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
-        position: "Speech and Debate~Algebra 1",
-      },
+      
       {
         name: "Rishabh Manur",
         avatar:
@@ -187,7 +188,7 @@ export default function AboutUs() {
                   description={description}
                   position={position}
                 />
-              );
+              )
             })}
             </div>
             </div>
@@ -204,13 +205,13 @@ export default function AboutUs() {
                       description={description}
                       position={position}
                     />
-                  );
+                  )
                 })}
                 </div>
             </div>
             
             <div className="space-y-4">
-                <h2 className="text-accent-primary">Marketing</h2>
+                <h2 className="text-accent-primary">Outreach</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {marketingProfiles.map(({ name, avatar, description, position }, i) => {
                   return (
@@ -221,7 +222,7 @@ export default function AboutUs() {
                       description={description}
                       position={position}
                     />
-                  );
+                  )
                 })}
                 </div>
             </div>
@@ -239,12 +240,13 @@ export default function AboutUs() {
                       description={description}
                       position={position}
                     />
-                  );
+                  )
                 })}
                 </div>
             </div>
           </div>
+          
         </div>
     </>
-  );
+  )
 }

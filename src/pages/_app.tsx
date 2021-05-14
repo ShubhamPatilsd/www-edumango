@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
         <title>Edumango—Empowering Students</title>
         <link rel="shortcut icon" href="/mango.png" />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       </>
   )
 }

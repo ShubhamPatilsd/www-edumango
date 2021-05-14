@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => {
   return (
     
     <nav className="flex bg-white  items-center justify-between py-8">
-      <a href="/">
+      <a className="sm:block hidden" href="/">
         <Image
           src="/edumango-logo.svg"
           alt="Learning"
@@ -14,6 +14,19 @@ export const Navbar: React.FC = () => {
           height={49}
           layout="intrinsic"
           quality={100}
+          className="sm:hidden"
+        />
+      </a>
+
+      <a className="sm:hidden block" href="/">
+        <Image
+          src="/mango.png"
+          alt="Learning"
+          width={45}
+          height={45}
+          layout="intrinsic"
+          quality={100}
+          className="sm:hidden"
         />
       </a>
 
