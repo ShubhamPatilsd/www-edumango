@@ -32,12 +32,12 @@ export const Navbar: React.FC = () => {
 
       <ul className="flex items-center space-x-6 md:space-x-10">
         <li>
-          <a href="/our-staff" className="text-accent-secondary">
+          <a href="/our-staff" className="hover:underline text-accent-secondary">
             <h4>Our Staff</h4>
           </a>
         </li>
         <li>
-          <a href="/courses" className="text-accent-secondary">
+          <a href="/courses" className="hover:underline text-accent-secondary">
             <h4>Courses</h4>
           </a>
         </li>

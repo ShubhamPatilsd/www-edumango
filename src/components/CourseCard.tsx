@@ -47,7 +47,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
   }
   return (
     <a href={link ? link: null} target="_blank">
-    <div className="text-left px-6 py-6 space-y-3 rounded-xl shadow-md border border-gray-100 hover:shadow-2xl transition transition-delay-15 ease-in-out">
+    <div className="text-left px-6 py-6 space-y-3  rounded-xl shadow-md border border-gray-100 hover:shadow-2xl transition transition-delay-15 ease-in-out h-full">
       <h3 className={courseName ? "" : "hidden "}>{courseName}</h3>
 
       <h5
@@ -60,9 +60,14 @@ const CourseCard: React.FC<CourseCardProps> = ({
 
         <p>{AMPMTime()}</p>
       </h5>
-
+      <p className="uppercase font-bold text-sm text-gray-600">{grades.length==1 ? `Grade ${grades[0]}`:`Grades ${Math.min(...grades)}-${Math.max(...grades)}`}</p>
       <p className={courseDescription ? "" : "hidden"}>{courseDescription}</p>
-      <p>{grades.length==1 ? `Grade ${grades[0]}`:`Grades ${Math.min(...grades)}-${Math.max(...grades)}`}</p>
+
+      
+        
+    
+      
+      
     </div>
     </a>
   );
