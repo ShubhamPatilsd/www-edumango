@@ -7,6 +7,7 @@ interface CourseCardProps {
   startingDate: Date;
   grades: number[];
   link?: string;
+  days: string;
 }
 
 const numberToMonth = [
@@ -33,17 +34,18 @@ const CourseCard: React.FC<CourseCardProps> = ({
   courseDescription,
   startingDate,
   grades,
-  link
+  link,
+  days
 }) => {
   function AMPMTime(){
-    let result: string = "";
-    if(startingDate.getHours()>12){
+    
+   if(startingDate.getHours()>12){
       let nonMillitaryTime: number = startingDate.getHours()-12;
-      result = `${numberToMonth[startingDate.getMonth()]} ${startingDate.getDay()}, ${startingDate.getFullYear()} at ${nonMillitaryTime}:${startingDate.getMinutes()} PM (PST)`
+      return `${numberToMonth[startingDate.getMonth()]} ${startingDate.getDate()}, ${startingDate.getFullYear()} at ${nonMillitaryTime}:${startingDate.getMinutes()} PM (${Intl.DateTimeFormat().resolvedOptions().timeZone})`
     }else{
-      result = `${numberToMonth[startingDate.getMonth()]} ${startingDate.getDay()}, ${startingDate.getFullYear()} at ${startingDate.getHours().toString()}:${startingDate.getMinutes()} AM (PST)`
+      return `${numberToMonth[startingDate.getMonth()]} ${startingDate.getDate()}, ${startingDate.getFullYear()} at ${startingDate.getHours().toString()}:${startingDate.getMinutes()} AM (${Intl.DateTimeFormat().resolvedOptions().timeZone})`
     }
-    return result
+    
   }
   return (
     <a href={link ? link: null} target="_blank">
@@ -56,10 +58,10 @@ const CourseCard: React.FC<CourseCardProps> = ({
         }
       >
         <img src="/event_icon.svg" />
-
-
-        <p>{AMPMTime()}</p>
+        
+        <p>{startingDate.toLocaleString('en-US',{dateStyle:"long", timeStyle:"short"})}</p>
       </h5>
+      <p>{days}</p>
       <p className="uppercase font-bold text-sm text-gray-600">{grades.length==1 ? `Grade ${grades[0]}`:`Grades ${Math.min(...grades)}-${Math.max(...grades)}`}</p>
       <p className={courseDescription ? "" : "hidden"}>{courseDescription}</p>
 

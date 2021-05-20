@@ -3,6 +3,8 @@ module.exports = {
     purge: ["./src/**/*.tsx", "./public/index.html"],
     theme: {
         extend:{
+            
+
             boxShadow: {
                 around: "0 0 10px #ccc"
             },
@@ -18,7 +20,10 @@ module.exports = {
                 'sans-serif',
                 ],
             },
+            backgroundImage: {
+                'svgwave': "url('/svgwave.svg')",
                 
+            },
                 colors: {
                     'button-main':'#2ecc71',
                     'button-hover':'#27ae60',
@@ -51,7 +56,8 @@ module.exports = {
                         
                 
                     },
-            }
+            },
+            
     }
 }
 }
