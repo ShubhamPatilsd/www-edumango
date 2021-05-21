@@ -57,7 +57,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
           startingDate ? "font-bold flex items-center space-x-2" : "hidden"
         }
       >
-        <img src="/event_icon.svg" />
+        <span className="material-icons-round icon">event</span>
         
         <p>{startingDate.toLocaleString('en-US',{dateStyle:"long", timeStyle:"short"})}</p>
       </h5>

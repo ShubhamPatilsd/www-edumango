@@ -20,10 +20,20 @@ module.exports = {
                 'sans-serif',
                 ],
             },
-            backgroundImage: {
-                'svgwave': "url('/svgwave.svg')",
-                
-            },
+            keyframes: {
+
+                updown: {
+       
+                  '0%, 100%': { transform: 'translateY(0%)' },
+       
+                  '50%': { transform: 'translateY(-3%)' },
+       
+                }
+               },
+               animation: {
+
+                updown: 'updown 1s ease-in-out infinite',
+               },
                 colors: {
                     'button-main':'#2ecc71',
                     'button-hover':'#27ae60',
