@@ -13,7 +13,7 @@ export default function Landing() {
       
       
       
-      <div className="md:px-12 px-4 space-y-6">
+      <div className="md:px-12 overflow-hidden px-4 space-y-6">
         <Fade top>
             <h1 className="text-center text-accent-primary text-6xl">EduMango</h1>
         </Fade>
