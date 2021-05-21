@@ -13,7 +13,7 @@ export default function Landing() {
       
       
       
-      <div className="md:px-12 overflow-hidden px-4 space-y-6">
+      <div className="md:px-12 overflow-x-hidden px-4 space-y-6">
         <Fade top>
             <h1 className="text-center text-accent-primary text-6xl">EduMango</h1>
         </Fade>
@@ -34,8 +34,8 @@ export default function Landing() {
                 <div>Even though all of our classes are going to be taking place online this summer, after the restraints from COVID-19 are expelled, we plan to hold live classes in the future.<br/></div>
             </div>
             <div className="mt-6 flex space-x-6 items-center">
-                <a href="/courses"><Button color="secondary">Meet Us</Button></a>
-                <a href="/our-staff"><Button color="secondary">Our Courses</Button></a>
+                <a href="/our-staff"><Button color="secondary">Meet Us</Button></a>
+                <a href="/courses"><Button color="secondary">Our Courses</Button></a>
             </div>
         </div>
 
