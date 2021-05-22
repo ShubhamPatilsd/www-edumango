@@ -116,27 +116,6 @@ export default function Courses() {
     }, 
   ];
 
-  const extraCurricular = [
-    {
-      courseName: "Video Editing",
-      courseDescription:
-        "In this course we dive into the most basic essentials of video editing. Students will learn to make videos, and edits. This class is a great way to improve your skill set, with fun activities.",
-      startingDate: new Date("05 October 2011 11:30"),
-      grades: [5, 8],
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      days: "Wednesdays"
-    }, 
-    {
-      courseName: "Chess",
-      courseDescription:
-        "PlaceHolder Description",
-      startingDate: new Date("05 October 2011 11:30"),
-      grades: [5, 8],
-      link: "",
-      days: "Thursdays"
-    }, 
-  ];
-
 
 
 
@@ -183,15 +162,6 @@ export default function Courses() {
 
             <CourseCardGroup groupTitle = "ELA"> 
             {ela.map(({ courseName, courseDescription, startingDate, grades, link, days}, i) => {
-              return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades} link={link} days={days}/>
-              );
-              
-            })}
-            </CourseCardGroup>
-
-            <CourseCardGroup groupTitle = "Extra Curricular"> 
-            {extraCurricular.map(({ courseName, courseDescription, startingDate, grades, link, days}, i) => {
               return (
                   <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades} link={link} days={days}/>
               );
