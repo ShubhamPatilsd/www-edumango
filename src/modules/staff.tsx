@@ -33,7 +33,7 @@ export default function AboutUs() {
           avatar:
             "https://media.discordapp.net/attachments/832365353660317726/841454813786275880/unknown.png",
           description:
-            "8th grader at Horner Junior High School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance).",
+            "8th grader at Horner Middle School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance).",
           position: "Co-Curriculum Lead~Literature",
         },
         {
@@ -41,7 +41,7 @@ export default function AboutUs() {
           avatar:
             "https://media.discordapp.net/attachments/832365353660317726/841455384526323752/unknown.png",
           description:
-            "8th grader at Horner Junior High School who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
+            "8th grader at Horner Middle School who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
           position: "Outreach Lead~Literature",
         },
   ]
@@ -71,7 +71,7 @@ export default function AboutUs() {
           "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
         description:
           "Rising Freshman at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
-        position: "Marketing~Spanish 1~Chess",
+        position: "Marketing~Spanish 1",
       },
       {
         name: "Abhimanyu Sharma",
@@ -79,7 +79,7 @@ export default function AboutUs() {
           "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
         description:
           "Rising Freshman at Mission San Jose High School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
-        position: "Marketing~Speech and Debate~Chess",
+        position: "Marketing~Speech and Debate",
       },
       {
         name: "Rishabh Mahesh",
@@ -90,12 +90,20 @@ export default function AboutUs() {
         position: "Marketing~Speech and Debate~Algebra 1",
       },
       {
+        name: "Amay Singhania",
+        avatar:
+          "https://cdn.discordapp.com/attachments/775862443984551966/845806648505008158/unknown.png",
+        description:
+          "8th grader at Horner Middle School. Passionate about coding and Martial Arts. Enjoys reading and learning about technology.",
+        position: "Marketing",
+      },
+      {
         name: "Sanjay Vijay",
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841457456420880405/unknown.png",
         description:
           "Rising freshman at Washington High School. Loves basketball, editing, and I play for a state ranked basketball team. Loves biology and learning about human anatomy.",
-        position: "Social Media~Video Editing~French",
+        position: "Social Media~French",
       },
       {
         name: "Kaeyaa Sane",
@@ -103,7 +111,7 @@ export default function AboutUs() {
           "https://media.discordapp.net/attachments/832365353660317726/841456554058448946/unknown.png",
         description:
           "Rising Freshman at Washington High School. Loves to swim, dance, sing, and make videos. Has more than 500 subscribers on YouTube.",
-        position: "Social Media~Spanish 2~Video Editing",
+        position: "Social Media~Spanish 2",
       },
       {
         name: "Ishaan Awasthi",
@@ -134,7 +142,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841457774982594570/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School. Enjoys making music, doing any style of art, roller skating, and reading. Loves spending time with my family and helping out whenever she can.",
+          "Rising Freshman at Mission San Jose High School. Enjoys making music, doing any style of art, roller skating, and reading. Loves spending time with her family and helping out whenever she can.",
         position: "Math 5",
       },
       
@@ -152,7 +160,7 @@ export default function AboutUs() {
           "https://media.discordapp.net/attachments/832365353660317726/841458631403896833/unknown.png",
         description:
           "Rising freshman at Washington High School. Favorite hobby is playing basketball. Favorite subjects are Math and Science Enjoys hanging out with friends and reading. ",
-        position: "Pre-Algebra~Video Editing",
+        position: "Pre-Algebra",
       },
       
       {
@@ -160,7 +168,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841458907310587914/unknown.png",
         description:
-          "Rising freshman at Mission San Jose High School. In his spare time, likes playing the tabla, playing tennis, listening to music, and gardening. Enjoys coding, robotics, and hanging out with my friends.",
+          "Rising freshman at Mission San Jose High School. In his spare time, likes playing the tabla, playing tennis, listening to music, and gardening. Enjoys coding, robotics, and hanging out with his friends.",
         position: "Algebra 1",
       },
   ];
