@@ -92,9 +92,7 @@ export default function Landing() {
         
         
         
-        {
-            //make it responsivse 
-        }
+        
         <div className="space-y-6">
             <h3 className="text-center sm:text-left text-xl sm:text-2xl">Our principles</h3>
             <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 text-center divide-y sm:divide-y-0 sm:divide-x">
