@@ -30,7 +30,7 @@ export default function Courses() {
       courseDescription: "Learning the basics to the most essential lessons, knowing how to speak the beautiful language to the grammar of the Central-European originated dialect, in an interesting and exciting course.",
       startingDate: new Date("05 October 2011 11:30"),
       grades: [6, 7],
-      link: "https://forms.gle/5ET2pP4RE635toJS8",
+      link: "https://forms.gle/94gUhKPB9T9SVF2R6",
       days: "Tuesdays"
     }
   ];
@@ -99,7 +99,7 @@ export default function Courses() {
     {
       courseName: "Literature",
       courseDescription:
-        "PlaceHolder Description",
+        "In this class students will read and study different genres, passages, and written works from different authors, teaching them to apply the concepts we learn into their writing.",
       startingDate: new Date("05 October 2011 11:30"),
       grades: [6, 7],
       link: "https://forms.gle/5CMCsx2nAve3YeQ3A",
