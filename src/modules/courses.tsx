@@ -101,7 +101,7 @@ export default function Courses() {
       courseDescription:
         "In this class students will read and study different genres, passages, and written works from different authors, teaching them to apply the concepts we learn into their writing.",
       startingDate: new Date("14 June 2021 10:00 "),
-      grades: [6, 7],
+      grades: [6, 8],
       link: "https://forms.gle/5CMCsx2nAve3YeQ3A",
       days: "Mondays"
     }, 
