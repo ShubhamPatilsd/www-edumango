@@ -20,7 +20,7 @@ export default function Courses() {
     {
       courseName: "Spanish 2",
       courseDescription: "Utilizing the concepts learned in Spanish 1, explore the preterite tense, reflexive verbs, demonstrative adjectives, and much more. Needs completion of Spanish 1 in school, or in another accredited source.",
-      startingDate: new Date("June 15, 2021 14:00"),
+      startingDate: new Date("June 15, 2021 14:00 "),
       grades: [7, 8],
       link: "https://forms.gle/5ET2pP4RE635toJS8",
       days: "Tuesdays and Fridays"
@@ -28,7 +28,7 @@ export default function Courses() {
     {
       courseName: "French 1",
       courseDescription: "Learning the basics to the most essential lessons, knowing how to speak the beautiful language to the grammar of the Central-European originated dialect, in an interesting and exciting course.",
-      startingDate: new Date("June 15, 2021 16:30"),
+      startingDate: new Date("June 15, 2021 16:30 "),
       grades: [6, 7],
       link: "https://forms.gle/94gUhKPB9T9SVF2R6",
       days: "Tuesdays"
@@ -40,7 +40,7 @@ export default function Courses() {
       courseName: "Math Grade 5",
       courseDescription:
         "In this interactive, entertaining, and informational class, we will guide the students through many different Grade Five math topics, enabling them to flourish in the future.",
-      startingDate: new Date("14 June 2021 14:00"),
+      startingDate: new Date("14 June 2021 14:00 "),
       grades: [5],
       link: "https://forms.gle/W85Lt3wtTaSGDN8r8",
       days: "Mondays and Thursdays"
@@ -49,7 +49,7 @@ export default function Courses() {
       courseName: "Math Grade 6",
       courseDescription:
         "A fun filled class preparing students for basic concepts in Pre-Algebra, to help them succeed in Middle school and High School!",
-      startingDate: new Date("14 June 2021 15:15"),
+      startingDate: new Date("14 June 2021 15:15 "),
       grades: [6],
       link: "https://forms.gle/w9FPpujdYN6j5T3g7",
       days: "Mondays and Thursdays"
@@ -58,7 +58,7 @@ export default function Courses() {
       courseName: "Pre-Algebra",
       courseDescription:
         "An exciting class to get students ready for 7th Grade Math. We will uncover the surface of Pre-Algebra, diving into the most basic and important concepts of Pre-Algebra like inequalities, functions, and more!",
-      startingDate: new Date("14 June 2021 16:30"),
+      startingDate: new Date("14 June 2021 16:30 "),
       grades: [7],
       link: "https://forms.gle/mosqHQJmG7P1hhFv9",
       days: "Mondays and Thursdays"
@@ -67,7 +67,7 @@ export default function Courses() {
       courseName: "Algebra 1",
       courseDescription:
         "In this class, students will learn all about Algebra 1 and the various topics within it. Algebra 1 is the gateway to high school curriculum so taking this class is very beneficial for students' futures!",
-      startingDate: new Date("14 June 2021 17:45"),
+      startingDate: new Date("14 June 2021 17:45 "),
       grades: [8],
       link: "https://forms.gle/prRzHPu9x24YRMF17",
       days: "Mondays and Thursdays"
@@ -79,7 +79,7 @@ export default function Courses() {
       courseName: "Intro to CAD",
       courseDescription:
         "CAD or Computer Aided design is the process of designing things in 3D on your computer. This is so you can visualize the models before you make them in real life. Almost all tech companies use CAD for designing products, which is why it is such a valuable skill to learn.",
-      startingDate: new Date("15 June 2021 10:00"),
+      startingDate: new Date("15 June 2021 10:00 "),
       grades: [5, 8],
       link: "https://forms.gle/NcaF7LP9mT22P5Dh7",
       days: "Tuesdays"
@@ -88,7 +88,7 @@ export default function Courses() {
       courseName: "Intro to Coding",
       courseDescription:
         "This class will get students started with the wonderful realm of coding. Students will learn a lot of concepts in the easiest and simplest way possible and know most of the AP Computer Science curriculum!",
-      startingDate: new Date("16 June 2021 16:30"),
+      startingDate: new Date("16 June 2021 16:30 "),
       grades: [6, 8],
       link: "https://forms.gle/sT4zMVfqRiMmZvwV7",
       days: "Wednesdays"
@@ -100,7 +100,7 @@ export default function Courses() {
       courseName: "Literature",
       courseDescription:
         "In this class students will read and study different genres, passages, and written works from different authors, teaching them to apply the concepts we learn into their writing.",
-      startingDate: new Date("14 June 2021 10:00"),
+      startingDate: new Date("14 June 2021 10:00 "),
       grades: [6, 7],
       link: "https://forms.gle/5CMCsx2nAve3YeQ3A",
       days: "Mondays"
@@ -109,7 +109,7 @@ export default function Courses() {
       courseName: "Speech & Debate",
       courseDescription:
         "A brand new course full of great opportunities where students can learn how to perform better in social environments, speak with confidence and present bold speeches. They will also learn how to debate in 2 different styles against each other. The course is recommended for 6th graders and up but 5th graders are welcome to join as well.",
-      startingDate: new Date("18 June 2021 16:30"),
+      startingDate: new Date("18 June 2021 16:30 "),
       grades: [5, 8],
       link: "https://forms.gle/i66BLjNYBdyuJVd38",
       days: "Fridays"
