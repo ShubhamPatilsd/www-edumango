@@ -21,7 +21,7 @@ export default function Landing() {
         
         <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2">
 
-        <div className="sm:hidden"> 
+        <div className="sm:hidden flex items-center"> 
             <Fade right>
             <Image
             
@@ -39,7 +39,7 @@ export default function Landing() {
         <div className="float-right h-full flex items-center text-base sm:text-lg space-y-6">
         <div>
             <div>
-                <h3 className="text-center sm:text-left text-xl sm:text-2xl">Empowering Students Through Education</h3>
+                <h3 className="left text-2xl sm:text-3xl">Empowering Students Through Education</h3>
                 <br/>
                 <div>EduMango is a teaching platform for kids from grades 5-8. We are currently providing eight-week camps over the summer for a variety of subjects and extracurriculars as well.</div>
                 <br/>
@@ -73,7 +73,7 @@ export default function Landing() {
         </Fade>
         </div>
         
-        <div className="hidden sm:block"> 
+        <div className="hidden sm:flex align-middle"> 
             <Fade right>
             <Image
             
@@ -92,23 +92,27 @@ export default function Landing() {
         
         
         
-        <Fade left>
+        <Fade top>
         <div className="space-y-6">
-            <h3 className="text-center sm:text-left text-xl sm:text-2xl">Our principles</h3>
-            <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 text-center divide-y sm:divide-y-0 sm:divide-x">
+            <h3 className=" text-2xl sm:text-3xl">Our principles</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3 text-center divide-y sm:divide-y-0 sm:divide-x">
             
-                <div className="grid sm:pr-8 leading-none justify-items-center">
+                <div className="grid pb-8 sm:pb-0 sm:pr-8 leading-none justify-items-center">
                     <span className="animate-updown material-icons-round icon md-48 sm:md-72">psychology</span>
-                    <p className="text-base sm:text-lg">Empowering Students through education.</p>
+                    <h4 className="text-lg sm:text-xl">Empowering Students through Education</h4>
+                    <p className="text-base sm:text-md">We focus on making our students stronger, and more confident about what they learn. </p>
                 </div>
             
-                <div className="grid pt-8 sm:pt-0 sm:px-8 leading-none justify-items-center">
+                <div className="grid py-8 sm:py-0 px-8 leading-none justify-items-center">
                     <span className="animate-updown material-icons-round icon md-48 sm:md-72">account_balance_wallet</span>
-                    <p className="text-base sm:text-lg">Free classes with experienced instructors.</p>
+                    <h4 className="text-lg sm:text-xl">Experienced Instructors</h4>
+                    <p className="text-base sm:text-md">All of our instructors are dedicated and are experienced in the subjects they teach, and are passionate about teaching as well.</p>
                 </div>
+                
                 <div className="grid pt-8 sm:pt-0 sm:pl-8 leading-none justify-items-center">
                     <span className="material-icons-round  icon md-48 sm:md-72 animate-updown">school</span>
-                    <p className="text-base sm:text-lg">An organization by students, for students.</p>
+                    <h4 className="text-lg sm:text-xl">An organization by students for students.</h4>
+                    <p className="text-base sm:text-md">All of our staff are students in middle school and high-schoolers that have a common goal to spread their passions to as many children as possible, free of cost.</p>
                 </div>
             </div>
               </div>
