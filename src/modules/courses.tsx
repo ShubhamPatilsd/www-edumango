@@ -108,7 +108,7 @@ export default function Courses() {
     {
       courseName: "Speech & Debate",
       courseDescription:
-        "A brand new course full of great opportunities where students can learn how to perform better in social environments, speak with confidence and present bold speeches. They will also learn how to debate in 2 different styles against each other. The course is recommended for 6th graders and up but 5th graders are welcome to join as well.",
+        "A brand new course full of great opportunities where students can learn how to perform better in social environments, speak with confidence and present bold speeches. They will also learn how to debate in 2 different styles against each other.",
       startingDate: new Date("18 June 2021 16:30 "),
       grades: [5, 8],
       link: "https://forms.gle/i66BLjNYBdyuJVd38",
