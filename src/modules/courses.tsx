@@ -13,7 +13,7 @@ export default function Courses() {
       courseDescription:
         "A fun and exciting class where students will learn the basics of Spanish 1, to help the students excel in their first year of Spanish.",
       startingDate: new Date('June 15, 2021 12:00'),
-      grades: [6, 7, 8],
+      grades: [6, 8],
       link: "https://forms.gle/rzB91Am3eFg6xWhH7",
       days: "Tuesdays and Fridays"
     }, 
@@ -21,7 +21,7 @@ export default function Courses() {
       courseName: "Spanish 2",
       courseDescription: "Utilizing the concepts learned in Spanish 1, explore the preterite tense, reflexive verbs, demonstrative adjectives, and much more. Needs completion of Spanish 1 in school, or in another accredited source.",
       startingDate: new Date("June 15, 2021 14:00 "),
-      grades: [Requires Completion of Spanish 1],
+      grades: [7,8],
       link: "https://forms.gle/5ET2pP4RE635toJS8",
       days: "Tuesdays and Fridays"
     },
