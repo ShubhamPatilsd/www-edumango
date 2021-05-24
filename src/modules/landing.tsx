@@ -115,7 +115,7 @@ export default function Landing() {
                 <div className="grid pt-8 sm:pt-0 sm:pl-8 leading-none justify-items-center">
                     <span className="material-icons-round  icon md-48 sm:md-72 animate-updown">school</span>
                     <h4 className="text-lg sm:text-xl">An organization by students for students.</h4>
-                    <p className="text-base sm:text-md">All of our staff are students in middle school and high-schoolers that have a common goal to spread their passions to as many children as possible, free of cost.</p>
+                    <p className="text-base sm:text-md">All of our staff are students in middle school and high school that have a common goal to spread their passions to as many children as possible, free of cost.</p>
                 </div>
             </div>
               </div>
