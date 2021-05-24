@@ -104,7 +104,7 @@ export default function Landing() {
                 </div>
             
                 <div className="grid py-8 sm:py-0 px-8 leading-none justify-items-center">
-                    <span className="animate-updown material-icons-round icon md-48 sm:md-72">account_balance_wallet</span>
+                    <span className="animate-updown material-icons-round icon md-48 sm:md-72">face</span>
                     <h4 className="text-lg sm:text-xl">Experienced Instructors</h4>
                     <p className="text-base sm:text-md">All of our instructors are dedicated and are experienced in the subjects they teach, and are passionate about teaching as well.</p>
                 </div>
