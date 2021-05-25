@@ -43,7 +43,7 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 14:00 "),
       grades: [5],
       link: "https://forms.gle/W85Lt3wtTaSGDN8r8",
-      days: "Mondays and Friday"
+      days: "Mondays and Thursday"
     },
     {
       courseName: "Math Grade 6",
@@ -61,7 +61,7 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 16:30 "),
       grades: [7],
       link: "https://forms.gle/mosqHQJmG7P1hhFv9",
-      days: "Mondays and Thursdays"
+      days: "Mondays and Fridays"
     },
     {
       courseName: "Algebra 1",
