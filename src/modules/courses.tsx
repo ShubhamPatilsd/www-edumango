@@ -58,7 +58,7 @@ export default function Courses() {
       courseName: "Pre-Algebra",
       courseDescription:
         "An exciting class to get students ready for 7th Grade Math. We will uncover the surface of Pre-Algebra, diving into the most basic and important concepts of Pre-Algebra like inequalities, functions, and more!",
-      startingDate: new Date("14 June 2021 16:30 "),
+      startingDate: new Date("14 June 2021 18:00 "),
       grades: [7],
       link: "https://forms.gle/mosqHQJmG7P1hhFv9",
       days: "Mondays and Fridays"
