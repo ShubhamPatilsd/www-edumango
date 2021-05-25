@@ -80,7 +80,7 @@ export default function Courses() {
       courseDescription:
         "CAD or Computer Aided design is the process of designing things in 3D on your computer. This is so you can visualize the models before you make them in real life. Almost all tech companies use CAD for designing products, which is why it is such a valuable skill to learn.",
       startingDate: new Date("15 June 2021 10:00 "),
-      grades: [5, 8],
+      grades: [6, 8],
       link: "https://forms.gle/NcaF7LP9mT22P5Dh7",
       days: "Tuesdays"
     }, 
