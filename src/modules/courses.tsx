@@ -43,7 +43,7 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 14:00 "),
       grades: [5],
       link: "https://forms.gle/W85Lt3wtTaSGDN8r8",
-      days: "Mondays and Thursdays"
+      days: "Mondays and Friday"
     },
     {
       courseName: "Math Grade 6",
