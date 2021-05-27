@@ -51,7 +51,7 @@ export default function AboutUs() {
         avatar:
           "https://cdn.discordapp.com/attachments/832365353660317726/841460312048795668/person.png",
         description:
-          "Rising Freshman at Mission San Jose High School who enjoys programming. Enjoys trying and new eating food from multiple cuisines, playing videogames, and watching movies as well. He is very curious and likes to learn new things about technology.",
+          "Rising Freshman at Mission San Jose High School who enjoys programming. Enjoys trying and eating food from multiple cuisines, playing videogames, and watching movies as well. He is very curious and likes to learn new things about technology.",
         position: "Web Development~Intro to Coding",
       },
       {
