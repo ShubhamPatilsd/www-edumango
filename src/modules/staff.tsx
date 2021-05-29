@@ -70,7 +70,7 @@ export default function AboutUs() {
         avatar:
           "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
+          "Rising Freshman at Washington High School. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
         position: "Marketing~Spanish 1",
       },
       {
@@ -78,7 +78,7 @@ export default function AboutUs() {
         avatar:
           "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+          "Rising Freshman at Quarry Lane School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
         position: "Marketing~Speech and Debate",
       },
       {
