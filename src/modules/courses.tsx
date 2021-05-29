@@ -88,7 +88,7 @@ export default function Courses() {
       courseName: "Intro to Coding",
       courseDescription:
         "This class will get students started with the wonderful realm of coding. Students will learn a lot of concepts in the easiest and simplest way possible and know most of the AP Computer Science curriculum!",
-      startingDate: new Date("16 June 2021 16:30 "),
+      startingDate: new Date("16 June 2021 16:00 "),
       grades: [6, 8],
       link: "https://forms.gle/sT4zMVfqRiMmZvwV7",
       days: "Wednesdays"
