@@ -65,30 +65,7 @@ export default function AboutUs() {
   ]
 
   const marketingProfiles = [
-    {
-        name: "Akshat Gupta",
-        avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
-        description:
-          "Rising Freshman at Washington High School. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
-        position: "Marketing~Spanish 1",
-      },
-      {
-        name: "Abhimanyu Sharma",
-        avatar:
-          "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
-        description:
-          "Rising Freshman at Quarry Lane School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
-        position: "Marketing~Speech and Debate",
-      },
-      {
-        name: "Rishabh Mahesh",
-        avatar:
-          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
-        description:
-          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
-        position: "Marketing~Speech and Debate~Algebra 1",
-      },
+
       {
         name: "Amay Singhania",
         avatar:
@@ -126,7 +103,30 @@ export default function AboutUs() {
 
   const instructorProfiles = [      
       
-      
+      {
+        name: "Akshat Gupta",
+        avatar:
+          "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
+        description:
+          "Rising Freshman at Washington High School. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
+        position: "Spanish 1",
+      },
+      {
+        name: "Abhimanyu Sharma",
+        avatar:
+          "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
+        description:
+          "Rising Freshman at Quarry Lane School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+        position: "Speech and Debate",
+      },
+      {
+        name: "Rishabh Mahesh",
+        avatar:
+          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
+        description:
+          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
+        position: "Speech and Debate~Algebra 1",
+      },
       
       {
         name: "Moksha Rawlani",
