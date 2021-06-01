@@ -89,7 +89,7 @@ export default function Courses() {
       courseDescription:
         "This class will get students started with the wonderful realm of coding. Students will learn a lot of concepts in the easiest and simplest way possible and know most of the AP Computer Science curriculum!",
       startingDate: new Date("16 June 2021 16:00 "),
-      grades: [6, 8],
+      grades: [6, 9],
       link: "https://forms.gle/sT4zMVfqRiMmZvwV7",
       days: "Wednesdays"
     }, 
@@ -101,7 +101,7 @@ export default function Courses() {
       courseDescription:
         "In this class students will read and study different genres, passages, and written works from different authors, teaching them to apply the concepts we learn into their writing.",
       startingDate: new Date("14 June 2021 10:00 "),
-      grades: [6, 8],
+      grades: [6, 9],
       link: "https://forms.gle/5CMCsx2nAve3YeQ3A",
       days: "Mondays"
     }, 
