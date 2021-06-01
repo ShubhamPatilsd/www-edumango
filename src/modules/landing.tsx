@@ -41,7 +41,7 @@ export default function Landing() {
             <div>
                 <h3 className="left text-2xl sm:text-3xl">Empowering Students Through Education</h3>
                 <br/>
-                <div>EduMango is a student-built teaching platform aiming to educate all students, free of cost. We are currently providing eight-week camps over the summer for students rising into Grade 5-8. Our classes include a variety of academic school subjects and extracurriculars as well.</div>
+                <div>EduMango is a student-built teaching platform aiming to educate all students, free of cost. This summer, we are providing eight week camps for students rising into Grades 5-8. Our classes include a variety of academic school subjects and extracurriculars as well.</div>
                 <br/>
                 <div>We are a group of middle schoolers and high schoolers who are interested in community service. Although we are all experienced in various subjects, we all have one value in common: we cherish the education we obtain every day. With this appreciation, we would like to give back to as many kids as possible.</div>
                 <br/>
