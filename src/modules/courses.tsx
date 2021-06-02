@@ -70,7 +70,7 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 17:45 "),
       grades: [8],
       link: "https://forms.gle/prRzHPu9x24YRMF17",
-      days: "Mondays and Thursdays"
+      days: "Tuesdays and Thursdays"
     }, 
   ];
 
