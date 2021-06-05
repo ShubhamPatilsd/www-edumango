@@ -49,7 +49,7 @@ export default function Landing() {
             </div>
             <div>
                 <div className="mt-6 flex space-x-6 items-center">
-                    <a href="/our-team"><Button color="secondary">Meet Us</Button></a>
+                    <a href="/team"><Button color="secondary">Meet Us</Button></a>
                     <a href="/courses"><Button color="secondary">Our Courses</Button></a>
                 
                 </div>
