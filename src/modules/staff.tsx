@@ -185,7 +185,7 @@ export default function AboutUs() {
 
         <div className="md:px-12 space-y-9 max-w-screen-xl mx-auto px-4 ">
             <div className="space-y-4">
-            <h2 className="text-accent-primary">Lead Staff</h2>
+            <h2 className="text-accent-primary">Leaders</h2>
             <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
             {leadStaffProfiles.map(({ name, avatar, description, position }, i) => {
               return (
@@ -202,7 +202,7 @@ export default function AboutUs() {
             </div>
 
             <div className="space-y-4">
-                <h2 className="text-accent-primary">Website Developers</h2>
+                <h2 className="text-accent-primary">Web Devs</h2>
                 <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
                 {webDevProfiles.map(({ name, avatar, description, position }, i) => {
                   return (
