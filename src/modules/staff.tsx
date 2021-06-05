@@ -181,7 +181,7 @@ export default function AboutUs() {
 
       <div className="space-y-6 md:px-12 px-4 md:mb-12 mb-4">
         <h1 className="text-center">Meet the Mangoes</h1>
-        <p className="text-center" >These are the people who organize and help run EduMango!</p>
+        
 
         <div className="md:px-12 space-y-9 max-w-screen-xl mx-auto px-4 ">
             <div className="space-y-4">
