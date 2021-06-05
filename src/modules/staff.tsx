@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 export default function AboutUs() {
   
-  const LeadersProfiles = [
+  const leadStaffProfiles = [
     {
         name: "Ishan Patel",
         avatar:
