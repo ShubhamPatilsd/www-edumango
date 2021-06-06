@@ -41,6 +41,11 @@ export const Navbar: React.FC = () => {
             <h4>Courses</h4>
           </a>
         </li>
+        <li>
+          <a href="/our-sponsors" className="hover:underline text-accent-secondary">
+            <h4>Sponsors</h4>
+          </a>
+        </li>
       </ul>
     </nav>
     
