@@ -73,15 +73,7 @@ export default function AboutUs() {
         description:
           "8th grader at Horner Middle School. Passionate about coding and Martial Arts. Enjoys reading and learning about technology.",
         position: "Marketing",
-      },
-      {
-        name: "Sanjay Vijay",
-        avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841457456420880405/unknown.png",
-        description:
-          "Rising freshman at Washington High School. Loves basketball, editing, and I play for a state ranked basketball team. Loves biology and learning about human anatomy.",
-        position: "Social Media~French",
-      },
+      }, 
       {
         name: "Kaeyaa Sane",
         avatar:
@@ -116,7 +108,7 @@ export default function AboutUs() {
         avatar:
           "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
         description:
-          "Rising Freshman at Quarry Lane School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+          "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
         position: "Speech and Debate",
       },
       {
@@ -153,16 +145,7 @@ export default function AboutUs() {
         description:
           "Rising freshman and Mission San Jose High School. Likes coding/robotics, math, and science. Participated in a school science bowl team and in multiple robotics competitions.",
         position: "Pre-Algebra",
-      },
-      {
-        name: "Hem Baid",
-        avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841458631403896833/unknown.png",
-        description:
-          "Rising freshman at Washington High School. Favorite hobby is playing basketball. Favorite subjects are Math and Science Enjoys hanging out with friends and reading. ",
-        position: "Pre-Algebra",
-      },
-      
+      }, 
       {
         name: "Rishabh Manur",
         avatar:
