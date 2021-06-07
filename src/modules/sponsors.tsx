@@ -26,7 +26,7 @@ export default function Sponsors() {
         
         <div className="grid md:grid-cols-2  lg:grid-cols-3 sm:grid-cols-2 gap-4">
         {sponsors.map((sponsor, i)=>{
-            return <SponsorCard logo={sponsor.logo} name={sponsor.name} link={sponsor.link}/>
+            return <SponsorCard logo={sponsor.logo} key={i} name={sponsor.name} link={sponsor.link}/>
         })}
         
         </div>
