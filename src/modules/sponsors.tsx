@@ -13,6 +13,11 @@ export default function Sponsors() {
         {
             name:"Lovely Sweets & Snacks",
             link: "http://lovelysweets.synthasite.com/"
+        },
+        {
+            logo: "https://www.superindiaonline.com/images/logo/super-india-logo-v1.svg",
+            name: "Super India",
+            link: "https://www.superindiaonline.com/"
         }
     ]
   return (
