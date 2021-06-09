@@ -18,6 +18,11 @@ export default function Sponsors() {
             logo: "https://www.superindiaonline.com/images/logo/super-india-logo-v1.svg",
             name: "Super India",
             link: "https://www.superindiaonline.com/"
+        },
+        {
+            logo: "https://nilgiriscashandcarry.com/assets/images/logo/logo-light.png",
+            name: "Nilgiris Cash And Carry",
+            link: "https://nilgiriscashandcarry.com/"
         }
     ]
   return (
