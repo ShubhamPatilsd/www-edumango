@@ -59,7 +59,7 @@ export default function Courses() {
       courseName: "Algebra 1",
       courseDescription:
         "In this class, students will learn all about Algebra 1 and the various topics within it. Algebra 1 is the gateway to high school curriculum so taking this class is very beneficial for students' futures!",
-      startingDate: new Date("15 June 2021 17:45 "),
+      startingDate: new Date("15 June 2021 16:30 "),
       grades: [8],
       link: "https://forms.gle/prRzHPu9x24YRMF17",
       days: "Tuesdays and Thursdays"
