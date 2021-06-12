@@ -154,6 +154,14 @@ export default function AboutUs() {
           "Rising freshman at Mission San Jose High School. In his spare time, likes playing the tabla, playing tennis, listening to music, and gardening. Enjoys coding, robotics, and hanging out with his friends.",
         position: "Algebra 1",
       },
+      {
+        name: "Anish Polakala",
+        avatar:
+          "https://discord.com/channels/@me/762751394138554419/853349684474544129",
+        description:
+          "Rising Freshman at Washington High School. Loves coding, chess, math, and science. Exuberant reader.",
+        position: "Pre-Algebra",
+      },
   ];
 
   return (
