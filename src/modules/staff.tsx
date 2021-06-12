@@ -157,7 +157,7 @@ export default function AboutUs() {
       {
         name: "Anish Polakala",
         avatar:
-          "https://discord.com/channels/@me/762751394138554419/853349684474544129",
+          "https://media.discordapp.net/attachments/762751394138554419/853349684428537856/unknown.png",
         description:
           "Rising Freshman at Washington High School. Loves coding, chess, math, and science. Exuberant reader.",
         position: "Pre-Algebra",
