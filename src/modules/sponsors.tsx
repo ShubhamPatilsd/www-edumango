@@ -11,6 +11,7 @@ export default function Sponsors() {
             link: "https://coconuthill.com/"
         },
         {
+            logo: "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_100,h_100,f_auto,fl_lossy,q_80,c_fit/k55mayucbgf4p0tcvqdc",
             name: "Lovely Sweets & Snacks",
             link: "http://lovelysweets.synthasite.com/"
         },
