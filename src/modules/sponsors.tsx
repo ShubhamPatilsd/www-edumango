@@ -11,7 +11,6 @@ export default function Sponsors() {
             link: "https://coconuthill.com/"
         },
         {
-            logo: "https://cdn.discordapp.com/attachments/718153638408880209/853710620255191051/Screen_Shot_2021-06-13_at_11.58.43_AM.png",
             name: "Lovely Sweets & Snacks",
             link: "http://lovelysweets.synthasite.com/"
         },
