@@ -6,12 +6,13 @@ export default function Sponsors() {
 
     const sponsors = [
         {
-            logo:"https://cdn.discordapp.com/attachments/832365353660317726/851153743231057960/unknown.png",
+            logo: "https://cdn.discordapp.com/attachments/832365353660317726/851153743231057960/unknown.png",
             name: "Coconut Hill",
-            link:"https://coconuthill.com/"
+            link: "https://coconuthill.com/"
         },
         {
-            name:"Lovely Sweets & Snacks",
+            logo: "https://cdn.discordapp.com/attachments/718153638408880209/853710620255191051/Screen_Shot_2021-06-13_at_11.58.43_AM.png",
+            name: "Lovely Sweets & Snacks",
             link: "http://lovelysweets.synthasite.com/"
         },
         {
