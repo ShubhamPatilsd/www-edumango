@@ -121,6 +121,48 @@ export default function Landing() {
               </div>
               </Fade>
         </div>
+
+       
+        
+        <Fade bottom>
+        <div className="mt-6">
+          <div className="absolute top-0 inset-x-0 w-full ">
+            <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" className="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#fcb90088"></stop><stop offset="95%" stop-color="#ff690088"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,200 0,200 C 146.93333333333334,175.60000000000002 293.8666666666667,151.20000000000002 471,165 C 648.1333333333333,178.79999999999998 855.4666666666667,230.79999999999998 1022,243 C 1188.5333333333333,255.20000000000002 1314.2666666666667,227.60000000000002 1440,200 C 1440,200 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" className="transition-all duration-300 ease-in-out delay-150"></path><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#fcb900ff"></stop><stop offset="95%" stop-color="#ff6900ff"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,400 0,400 C 151.46666666666664,429.20000000000005 302.9333333333333,458.40000000000003 465,467 C 627.0666666666667,475.59999999999997 799.7333333333333,463.6 964,449 C 1128.2666666666667,434.4 1284.1333333333332,417.2 1440,400 C 1440,400 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" className="transition-all duration-300 ease-in-out delay-150"></path></svg>
+          </div>
+          
+            <div className="absolute transform -translate-x-2/4 left-1/2 bg-white rounded-xl hover:shadow-2xl transition transition-delay-15 ease-in-out shadow-lg p-12 w-1/2">
+                <div>
+                <h3 className="text-2xl sm:text-3xl mb-6">Our Website Developers</h3>
+                <div className="flex items-center justify-center space-x-12">
+                    <div className="text-center space-y-6">
+                    <img className="rounded-full w-24 h-24" src="https://cdn.discordapp.com/attachments/832365353660317726/841460312048795668/person.png"/>
+          
+                      <p>Shubham Patil</p>
+                    </div>
+          
+                    <div className="text-center space-y-6">
+                      <img className="rounded-full w-24 h-24" src="https://media.discordapp.net/attachments/832365353660317726/841455861925937242/unknown.png"/>
+          
+                      <p>Nikhil Mehta</p>
+                    </div>
+          
+                </div>
+          
+                </div>
+                <div className="flex justify-center mt-6">
+                      <div className="text-center">
+                        <h5 className="mb-3 font-bold text-xl">Want a website similar to this?</h5>
+                        <a href="mailto:shubhampatilsd@gmail.com, nikhilsmehta7@gmail.com" target="_blank"><Button color="secondary">Contact Us</Button></a>
+                      </div>
+          
+                </div>
+            </div>
+        </div>
+      </Fade>
+
+        
+
+       
         
           
         

@@ -4,7 +4,6 @@ module.exports = {
     theme: {
         extend:{
             
-
             boxShadow: {
                 around: "0 0 10px #ccc"
             },
@@ -26,7 +25,7 @@ module.exports = {
        
                   '0%, 100%': { transform: 'translateY(0%)' },
        
-                  '50%': { transform: 'translateY(-3%)' },
+                  '50%': { transform: 'translateY(-10%)' },
        
                 }
                },
