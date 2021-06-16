@@ -33,17 +33,17 @@ export const Navbar: React.FC = () => {
       <ul className="flex items-center space-x-6 md:space-x-10">
         <li>
           <a href="/our-team" className="hover:underline text-accent-secondary">
-            <h4>Our Team</h4>
+            <h4 className="text-xl sm:text-2xl">Our Team</h4>
           </a>
         </li>
         <li>
           <a href="/courses" className="hover:underline text-accent-secondary">
-            <h4>Courses</h4>
+            <h4 className="text-xl sm:text-2xl">Courses</h4>
           </a>
         </li>
         <li>
           <a href="/our-sponsors" className="hover:underline text-accent-secondary">
-            <h4>Sponsors</h4>
+            <h4 className="text-xl sm:text-2xl">Sponsors</h4>
           </a>
         </li>
       </ul>

@@ -51,7 +51,8 @@ module.exports = {
                     accent: {
                         primary:{
                             DEFAULT: 'var(--color-primary)',
-                            darker: 'var(--color-primary-darker)'
+                            darker: 'var(--color-primary-darker)',
+                            vibrant: 'var(--color-primary-vibrant)'
                         },
                         secondary:{
                             DEFAULT: 'var(--color-secondary)',
