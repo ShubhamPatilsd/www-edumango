@@ -1,5 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import SponsorCard from "../components/SponsorCard";
+import { Footer } from "../components/Footer";
 
 
 export default function Sponsors() {
@@ -44,6 +45,7 @@ export default function Sponsors() {
         
           
         </div>
+        <Footer/>  
     </>
   )
 }

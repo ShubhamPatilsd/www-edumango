@@ -3,6 +3,7 @@ import { Navbar } from "../components/Navbar";
 import CourseCard from "../components/CourseCard";
 
 import CourseCardGroup from "../components/CourseCardGroup"
+import { Footer } from "../components/Footer";
 
 
 export default function Courses() {
@@ -164,7 +165,8 @@ export default function Courses() {
           </div>
       
         </div>
-      
+
+        <Footer/>  
     </>
   );
 }
