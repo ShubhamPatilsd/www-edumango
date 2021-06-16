@@ -7,7 +7,7 @@ export const Footer = () => {
         <ul>
             <li className="text-xs sm:text-base"><a className="underline text-blue-500 font-bold" href="/our-team">Our Team</a></li>
             <li><a className="underline text-blue-500 font-bold" href="/courses">Courses</a></li>
-            <li><a className="underline text-blue-500 font-bold" href="/sponsors">Sponsors</a></li>
+            <li><a className="underline text-blue-500 font-bold" href="/our-sponsors">Sponsors</a></li>
         </ul>
 
         <ul>
