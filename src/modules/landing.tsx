@@ -38,9 +38,6 @@ export default function Landing() {
         </div>
         <div>
         <Fade bottom>
-        /**
-        * BAP
-        */
         <div className="float-right h-full flex items-center text-base sm:text-lg space-y-6">
         <div>
             <div>
