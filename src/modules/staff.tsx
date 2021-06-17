@@ -19,7 +19,7 @@ export default function AboutUs() {
           "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
         description:
           "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History.",
-        position: "Co-Founder~Math 6",
+        position: "Founder~Math 6",
       },
     {
         name: "Bhagya Arora",
