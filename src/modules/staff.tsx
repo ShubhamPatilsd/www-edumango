@@ -11,7 +11,7 @@ export default function AboutUs() {
           "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
         description:
           "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History.",
-        position: "Founder~Math 6",
+        position: "Founder~President~Math 6",
       },
     {
         name: "Devansh Daxini",
@@ -19,7 +19,7 @@ export default function AboutUs() {
           "https://cdn.discordapp.com/attachments/832365353660317726/841128925266837565/unknown.png",
         description:
           "Rising Freshman at Washington High School who enjoys playing basketball. His favorite subject is math. Loves playing video games and enjoys video editing.",
-        position: "Co-Founder~Spanish 1",
+        position: "Co-Founder~Vice-President~Spanish 1",
       },
     {
         name: "Bhagya Arora",
