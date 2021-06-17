@@ -5,6 +5,14 @@ import { Footer } from "../components/Footer";
 export default function AboutUs() {
   
   const leadStaffProfiles = [
+         {
+        name: "Ishan Patel",
+        avatar:
+          "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
+        description:
+          "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History.",
+        position: "Founder~Math 6",
+      },
     {
         name: "Devansh Daxini",
         avatar:
@@ -12,14 +20,6 @@ export default function AboutUs() {
         description:
           "Rising Freshman at Washington High School who enjoys playing basketball. His favorite subject is math. Loves playing video games and enjoys video editing.",
         position: "Co-Founder~Spanish 1",
-      },
-      {
-        name: "Ishan Patel",
-        avatar:
-          "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
-        description:
-          "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History.",
-        position: "Founder~Math 6",
       },
     {
         name: "Bhagya Arora",
