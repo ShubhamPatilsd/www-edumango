@@ -124,7 +124,7 @@ export default function Landing() {
               </Fade>
         </div>
 
-       
+       {/* Add marquee */}
         
         <Fade bottom>
         <div className="mt-6 bg-gradient-to-r from-accent-primary to-accent-primary-vibrant py-6 flex justify-center items-center">
