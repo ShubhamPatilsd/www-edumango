@@ -21,17 +21,30 @@ module.exports = {
             },
             keyframes: {
 
+                marquee: {
+                    '0%': { transform: 'translateX(0%)' },
+                    '100%': { transform: 'translateX(-100%)' },
+                  },
+                  marquee2: {
+                    '0%': { transform: 'translateX(100%)' },
+                    '100%': { transform: 'translateX(0%)' },
+                  },
+
                 updown: {
        
                   '0%, 100%': { transform: 'translateY(0%)' },
        
                   '50%': { transform: 'translateY(-10%)' },
+                  
        
                 }
+
                },
                animation: {
 
                 updown: 'updown 1s ease-in-out infinite',
+                marquee: 'marquee 25s linear infinite',
+                marquee2: 'marquee2 25s linear infinite',
                },
                 colors: {
                     'button-main':'#2ecc71',

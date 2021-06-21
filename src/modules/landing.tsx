@@ -13,7 +13,7 @@ export default function Landing() {
         <Navbar />
       </div>
       
-      
+ 
       
       <div className="md:px-12 overflow-x-hidden px-4 space-y-6 pb-4 md:pb-12">
         <Fade top>
@@ -89,12 +89,130 @@ export default function Landing() {
                 layout="intrinsic"
                 quality={100}
               />
+              
               </Fade>
         </div>
         
         </div>
         
-        
+        <div className="space-y-6">
+            <div className="text-left divide-y sm:divide-y-0 sm:divide-x">
+                
+                <div className="animate-marquee">
+                  
+            <div >
+              <table>
+                <tr className="height:10px">
+                  <td>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"></div>
+                    <div className="card m-2 cursor-pointer 
+        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
+        transform hover:-translate-y-1 
+        transition-all duration-200">
+                      <div className="m-3">
+                        <h2 className="text-lg mb-2">10 Courses</h2>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"></div>
+                    <div className="card m-2 cursor-pointer 
+        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
+        transform hover:-translate-y-1 
+        transition-all duration-200">
+                      <div className="m-3">
+                        <h2 className="text-lg mb-2">4 Subjects</h2>
+
+
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div className="card m-2 cursor-pointer 
+        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
+        transform hover:-translate-y-1 
+        transition-all duration-200">
+                      <div className="m-3">
+                        <h2 className="text-lg mb-2">16 Classes per Week</h2>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div className="card m-2 cursor-pointer 
+        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
+        transform hover:-translate-y-1 
+        transition-all duration-200">
+                      <div className="m-3">
+                        <h2 className="text-lg mb-2">100 students enroled</h2>
+
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div className="card m-2 cursor-pointer 
+        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
+        transform hover:-translate-y-1 
+        transition-all duration-200">
+                      <div className="m-3">
+                        <h2 className="text-lg mb-2">4 Sponsors</h2>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div className="card m-2 cursor-pointer 
+        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
+        transform hover:-translate-y-1 
+        transition-all duration-200">
+                      <div className="m-3">
+                        <h2 className="text-lg mb-2">16 Instructors</h2>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div className="card m-2 cursor-pointer 
+        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
+        transform hover:-translate-y-1 
+        transition-all duration-200">
+                      <div className="m-3">
+                        <h2 className="text-lg mb-2">128 total hours of teaching</h2>
+                      </div>
+                    </div>
+                  </td>
+
+                </tr>
+
+
+              </table>
+            </div>
+
+                </div>
+            </div>
+              </div>
+
+
+              <div className="relative flex overflow-x-hidden">
+  <div className="py-12 animate-marquee whitespace-nowrap">
+    <span className="text-4xl mx-4">Marquee Item 1</span>
+    <span className="text-4xl mx-4">Marquee Item 2</span>
+    <span className="text-4xl mx-4">Marquee Item 3</span>
+    <span className="text-4xl mx-4">Marquee Item 4</span>
+    <span className="text-4xl mx-4">Marquee Item 5</span>
+  </div>
+
+  <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+    <span className="text-4xl mx-4">Marquee Item 1</span>
+    <span className="text-4xl mx-4">Marquee Item 2</span>
+    <span className="text-4xl mx-4">Marquee Item 3</span>
+    <span className="text-4xl mx-4">Marquee Item 4</span>
+    <span className="text-4xl mx- 4">Marquee Item 5</span>
+  </div>
+</div> 
         
         
         <Fade top>
@@ -125,7 +243,8 @@ export default function Landing() {
         </div>
 
        {/* Add marquee */}
-        
+
+
         <Fade bottom>
         <div className="mt-6 bg-gradient-to-r from-accent-primary to-accent-primary-vibrant py-6 flex justify-center items-center">
           
@@ -166,10 +285,6 @@ export default function Landing() {
 
       <Footer/>     
         
-          
-        
-      
-      
     </>
   );
 }
