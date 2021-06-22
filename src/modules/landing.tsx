@@ -3,6 +3,8 @@ import Image from "next/image";
 import Fade from 'react-reveal/Fade';
 import { Button } from "../components/Button";
 import { Footer } from "../components/Footer";
+import Marquee from "../components/Marquee";
+import MarqueeCard from "../components/MarqueeCard";
 
 
 export default function Landing() {
@@ -96,7 +98,7 @@ export default function Landing() {
         </div>
         
         <div className="space-y-6">
-            <div className="text-left divide-y sm:divide-y-0 sm:divide-x">
+            {/* <div className="text-left divide-y sm:divide-y-0 sm:divide-x">
                 
                 <div className="animate-marquee">
                   
@@ -175,14 +177,7 @@ export default function Landing() {
                   </td>
 
                   <td>
-                    <div className="card m-2 cursor-pointer 
-        border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 
-        transform hover:-translate-y-1 
-        transition-all duration-200">
-                      <div className="m-3">
-                        <h2 className="text-lg mb-2">128 total hours of teaching</h2>
-                      </div>
-                    </div>
+                    
                   </td>
 
                 </tr>
@@ -192,27 +187,17 @@ export default function Landing() {
             </div>
 
                 </div>
-            </div>
+            </div> */}
+
+          
+
+
+
+            <Marquee/>
               </div>
 
 
-              <div className="relative flex overflow-x-hidden">
-  <div className="py-12 animate-marquee whitespace-nowrap">
-    <span className="text-4xl mx-4">Marquee Item 1</span>
-    <span className="text-4xl mx-4">Marquee Item 2</span>
-    <span className="text-4xl mx-4">Marquee Item 3</span>
-    <span className="text-4xl mx-4">Marquee Item 4</span>
-    <span className="text-4xl mx-4">Marquee Item 5</span>
-  </div>
-
-  <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-    <span className="text-4xl mx-4">Marquee Item 1</span>
-    <span className="text-4xl mx-4">Marquee Item 2</span>
-    <span className="text-4xl mx-4">Marquee Item 3</span>
-    <span className="text-4xl mx-4">Marquee Item 4</span>
-    <span className="text-4xl mx- 4">Marquee Item 5</span>
-  </div>
-</div> 
+ 
         
         
         <Fade top>

@@ -24,11 +24,11 @@ module.exports = {
                 marquee: {
                     '0%': { transform: 'translateX(0%)' },
                     '100%': { transform: 'translateX(-100%)' },
-                  },
+                },
                   marquee2: {
                     '0%': { transform: 'translateX(100%)' },
                     '100%': { transform: 'translateX(0%)' },
-                  },
+                },
 
                 updown: {
        
@@ -43,8 +43,8 @@ module.exports = {
                animation: {
 
                 updown: 'updown 1s ease-in-out infinite',
-                marquee: 'marquee 25s linear infinite',
-                marquee2: 'marquee2 25s linear infinite',
+                marquee: 'marquee 45s linear infinite',
+                marquee2: 'marquee2 45s linear infinite',
                },
                 colors: {
                     'button-main':'#2ecc71',
