@@ -3,7 +3,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-100 border-t border-gray-200 mt-6 p-6  text-sm sm:text-base grid grid-cols-2 md:grid-cols-3">
+    <div className="absolute inset-x-0 bottom-0 bg-gray-100 border-t border-gray-200 mt-6 p-6  text-sm sm:text-base grid grid-cols-2 md:grid-cols-3">
         <ul>
             <li className="text-xs sm:text-base"><a className="underline text-blue-500 font-bold" href="/our-team">Our Team</a></li>
             <li><a className="underline text-blue-500 font-bold" href="/courses">Courses</a></li>
@@ -16,6 +16,6 @@ export const Footer = () => {
         </ul>
 
         
-    </footer>
+    </div>
   );
 };

@@ -33,6 +33,7 @@ export default function Sponsors() {
         <Navbar />
       </div>
 
+        
       <div className="space-y-6 md:px-12 px-4 md:mb-12 mb-4">
         <h1 className="text-center text-accent-primary text-6xl">Our Sponsors</h1>
         
@@ -42,10 +43,11 @@ export default function Sponsors() {
         })}
         
         </div>
-        
-          
         </div>
-        <Footer/>  
+
+        <h2><br/><br/></h2>
+          <Footer/>
+        
     </>
   )
 }
