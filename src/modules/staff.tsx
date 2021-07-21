@@ -61,7 +61,7 @@ export default function AboutUs() {
           "https://media.discordapp.net/attachments/832365353660317726/841455861925937242/unknown.png",
         description:
           "Rising Freshman at Mission San Jose High School who likes to play baseball, code, and enjoys doing CAD. Enjoys making apps and learning new skills.",
-        position: "Web Development~Intro to CAD",
+        position: "Web Development~Intro to CAD~Expansion",
       },
   ]
 
@@ -73,24 +73,27 @@ export default function AboutUs() {
           "https://cdn.discordapp.com/attachments/775862443984551966/845806648505008158/unknown.png",
         description:
           "8th grader at Horner Middle School. Passionate about coding and Martial Arts. Enjoys reading and learning about technology.",
-        position: "Marketing",
+        position: "Expansion",
       }, 
+    
       {
-        name: "Kaeyaa Sane",
+        name: "Abhimanyu Sharma",
         avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841456554058448946/unknown.png",
+          "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
         description:
-          "Rising Freshman at Washington High School. Loves to swim, dance, sing, and make videos. Has more than 500 subscribers on YouTube.",
-        position: "Social Media~Spanish 2",
+          "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+        position: "Speech and Debate",
       },
+
       {
-        name: "Ishaan Awasthi",
+        name: "Rishabh Mahesh",
         avatar:
-          "https://media.discordapp.net/attachments/832365353660317726/841458011967848468/unknown.png",
+          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School. Extremely passionate about guitar and music production! Favorite subject is English, and has a dream is to be an attorney.",
-        position: "Social Media~Math 6",
+          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
+        position: "Speech and Debate~Algebra 1~Expansion",
       },
+      
   ]
 
 
@@ -104,21 +107,23 @@ export default function AboutUs() {
           "Rising Freshman at Washington High School. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
         position: "Spanish 1",
       },
+    
       {
-        name: "Abhimanyu Sharma",
+        name: "Kaeyaa Sane",
         avatar:
-          "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
+          "https://media.discordapp.net/attachments/832365353660317726/841456554058448946/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
-        position: "Speech and Debate",
+          "Rising Freshman at Washington High School. Loves to swim, dance, sing, and make videos. Has more than 500 subscribers on YouTube.",
+        position: "Spanish 2",
       },
+
       {
-        name: "Rishabh Mahesh",
+        name: "Ishaan Awasthi",
         avatar:
-          "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
+          "https://media.discordapp.net/attachments/832365353660317726/841458011967848468/unknown.png",
         description:
-          "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
-        position: "Speech and Debate~Algebra 1",
+          "Rising Freshman at Mission San Jose High School. Extremely passionate about guitar and music production! Favorite subject is English, and has a dream is to be an attorney.",
+        position: "Math 6",
       },
       
       {
