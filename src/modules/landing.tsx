@@ -2,7 +2,7 @@ import { Navbar } from "../components/Navbar";
 import Image from "next/image";
 import Fade from "react-reveal/Fade";
 import { Button } from "../components/Button";
-import { Footer } from "../components/Footer";
+
 import Marquee from "../components/Marquee";
 import MarqueeCard from "../components/MarqueeCard";
 
@@ -252,8 +252,6 @@ export default function Landing() {
           </div>
         </div>
       </Fade>
-
-      <Footer />
     </>
   );
 }

@@ -70,7 +70,7 @@ const Marquee = () => {
   return (
     <div className="flex whitespace-no-wrap overflow-x-hidden">
       <div className="relative">
-        <ul className="flex animate-marquee">
+        <ul className="flex animate-marquee ">
           {quotes.map((quote, i) => {
             return (
               <li className="m-4">

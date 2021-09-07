@@ -2,29 +2,27 @@ import { Navbar } from "../components/Navbar";
 
 import CourseCard from "../components/CourseCard";
 
-import CourseCardGroup from "../components/CourseCardGroup"
-import { Footer } from "../components/Footer";
-
+import CourseCardGroup from "../components/CourseCardGroup";
 
 export default function Courses() {
-
   const language = [
     {
       courseName: "Spanish 1",
       courseDescription:
         "A fun and exciting class where students will learn the basics of Spanish 1, to help the students excel in their first year of Spanish.",
-      startingDate: new Date('June 15, 2021 12:00'),
+      startingDate: new Date("June 15, 2021 12:00"),
       grades: [6, 8],
       link: "https://forms.gle/rzB91Am3eFg6xWhH7",
-      days: "Tuesdays and Fridays"
-    }, 
+      days: "Tuesdays and Fridays",
+    },
     {
       courseName: "Spanish 2",
-      courseDescription: "Utilizing the concepts learned in Spanish 1, explore the preterite tense, reflexive verbs, demonstrative adjectives, and much more. Needs completion of Spanish 1 in school, or in another accredited source.",
+      courseDescription:
+        "Utilizing the concepts learned in Spanish 1, explore the preterite tense, reflexive verbs, demonstrative adjectives, and much more. Needs completion of Spanish 1 in school, or in another accredited source.",
       startingDate: new Date("June 15, 2021 14:00 "),
-      grades: [7,9],
+      grades: [7, 9],
       link: "https://forms.gle/5ET2pP4RE635toJS8",
-      days: "Tuesdays and Fridays"
+      days: "Tuesdays and Fridays",
     },
   ];
 
@@ -36,7 +34,7 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 14:00 "),
       grades: [5],
       link: "https://forms.gle/W85Lt3wtTaSGDN8r8",
-      days: "Mondays and Thursdays"
+      days: "Mondays and Thursdays",
     },
     {
       courseName: "Math Grade 6",
@@ -45,7 +43,7 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 15:15 "),
       grades: [6],
       link: "https://forms.gle/w9FPpujdYN6j5T3g7",
-      days: "Mondays and Thursdays"
+      days: "Mondays and Thursdays",
     },
     {
       courseName: "Pre-Algebra",
@@ -54,7 +52,7 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 18:00 "),
       grades: [7],
       link: "https://forms.gle/mosqHQJmG7P1hhFv9",
-      days: "Mondays and Fridays"
+      days: "Mondays and Fridays",
     },
     {
       courseName: "Algebra 1",
@@ -63,8 +61,8 @@ export default function Courses() {
       startingDate: new Date("15 June 2021 16:30 "),
       grades: [8],
       link: "https://forms.gle/prRzHPu9x24YRMF17",
-      days: "Tuesdays and Thursdays"
-    }, 
+      days: "Tuesdays and Thursdays",
+    },
   ];
 
   const engineering = [
@@ -75,8 +73,8 @@ export default function Courses() {
       startingDate: new Date("15 June 2021 10:00 "),
       grades: [6, 9],
       link: "https://forms.gle/NcaF7LP9mT22P5Dh7",
-      days: "Tuesdays"
-    }, 
+      days: "Tuesdays",
+    },
     {
       courseName: "Intro to Coding",
       courseDescription:
@@ -84,8 +82,8 @@ export default function Courses() {
       startingDate: new Date("16 June 2021 16:00 "),
       grades: [6, 9],
       link: "https://forms.gle/sT4zMVfqRiMmZvwV7",
-      days: "Wednesdays"
-    }, 
+      days: "Wednesdays",
+    },
   ];
 
   const ela = [
@@ -96,8 +94,8 @@ export default function Courses() {
       startingDate: new Date("14 June 2021 10:00 "),
       grades: [6, 8],
       link: "https://forms.gle/5CMCsx2nAve3YeQ3A",
-      days: "Mondays"
-    }, 
+      days: "Mondays",
+    },
     {
       courseName: "Speech & Debate",
       courseDescription:
@@ -105,12 +103,9 @@ export default function Courses() {
       startingDate: new Date("18 June 2021 16:30 "),
       grades: [5, 8],
       link: "https://forms.gle/i66BLjNYBdyuJVd38",
-      days: "Fridays"
-    }, 
+      days: "Fridays",
+    },
   ];
-
-
-
 
   return (
     <>
@@ -120,53 +115,131 @@ export default function Courses() {
 
       <div className="space-y-6 md:px-12 px-4 md:mb-12 mb-4">
         <h1 className="text-center">Courses</h1>
-        <h4 className="text-center">Click any of the courses below to register for that specific class.</h4>
-        <p className="text-center">*All of the grades listed are referring to the student's grade for the 2021-2022 school year.</p>
+        <h4 className="text-center">
+          Click any of the courses below to register for that specific class.
+        </h4>
+        <p className="text-center">
+          *All of the grades listed are referring to the student's grade for the
+          2021-2022 school year.
+        </p>
 
-        
-          <div className="space-y-6">
+        <div className="space-y-6">
+          <CourseCardGroup
+            groupTitle="Language"
+            note="Note: You can only take 1 language class"
+          >
+            {language.map(
+              (
+                {
+                  courseName,
+                  courseDescription,
+                  startingDate,
+                  grades,
+                  link,
+                  days,
+                },
+                i
+              ) => {
+                return (
+                  <CourseCard
+                    key={i}
+                    courseName={courseName}
+                    courseDescription={courseDescription}
+                    startingDate={startingDate}
+                    grades={grades}
+                    link={link}
+                    days={days}
+                  />
+                );
+              }
+            )}
+          </CourseCardGroup>
 
-          <CourseCardGroup groupTitle = "Language" note="Note: You can only take 1 language class"> 
-            {language.map(({ courseName, courseDescription, startingDate, grades, link, days}, i) => {
-              return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades} link={link} days={days}/>
-              );
-              
-            })}
-            </CourseCardGroup>
+          <CourseCardGroup groupTitle="Math">
+            {math.map(
+              (
+                {
+                  courseName,
+                  courseDescription,
+                  startingDate,
+                  grades,
+                  link,
+                  days,
+                },
+                i
+              ) => {
+                return (
+                  <CourseCard
+                    key={i}
+                    courseName={courseName}
+                    courseDescription={courseDescription}
+                    startingDate={startingDate}
+                    grades={grades}
+                    link={link}
+                    days={days}
+                  />
+                );
+              }
+            )}
+          </CourseCardGroup>
 
-            <CourseCardGroup groupTitle = "Math"> 
-            {math.map(({ courseName, courseDescription, startingDate, grades, link, days}, i) => {
-              return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades} link={link} days={days}/>
-              );
-              
-            })}
-            </CourseCardGroup>
+          <CourseCardGroup groupTitle="Engineering">
+            {engineering.map(
+              (
+                {
+                  courseName,
+                  courseDescription,
+                  startingDate,
+                  grades,
+                  link,
+                  days,
+                },
+                i
+              ) => {
+                return (
+                  <CourseCard
+                    key={i}
+                    courseName={courseName}
+                    courseDescription={courseDescription}
+                    startingDate={startingDate}
+                    grades={grades}
+                    link={link}
+                    days={days}
+                  />
+                );
+              }
+            )}
+          </CourseCardGroup>
 
-            <CourseCardGroup groupTitle = "Engineering" > 
-            {engineering.map(({ courseName, courseDescription, startingDate, grades, link, days}, i) => {
-              return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades} link={link} days={days}/>
-              );
-              
-            })}
-            </CourseCardGroup>
-
-            <CourseCardGroup groupTitle = "ELA"> 
-            {ela.map(({ courseName, courseDescription, startingDate, grades, link, days}, i) => {
-              return (
-                  <CourseCard key={i} courseName = {courseName} courseDescription = {courseDescription} startingDate = {startingDate} grades = {grades} link={link} days={days}/>
-              );
-              
-            })}
-            </CourseCardGroup>
-            
-          </div>
-      
+          <CourseCardGroup groupTitle="ELA">
+            {ela.map(
+              (
+                {
+                  courseName,
+                  courseDescription,
+                  startingDate,
+                  grades,
+                  link,
+                  days,
+                },
+                i
+              ) => {
+                return (
+                  <CourseCard
+                    key={i}
+                    courseName={courseName}
+                    courseDescription={courseDescription}
+                    startingDate={startingDate}
+                    grades={grades}
+                    link={link}
+                    days={days}
+                  />
+                );
+              }
+            )}
+          </CourseCardGroup>
         </div>
-
-        <Footer/>  
+      </div>
     </>
   );
 }
