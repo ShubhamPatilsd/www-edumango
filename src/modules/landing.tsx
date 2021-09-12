@@ -15,7 +15,9 @@ export default function Landing() {
 
       <div className="md:px-12 overflow-x-hidden px-4 space-y-6 pb-4 md:pb-12">
         <Fade top>
-          <h1 className="text-center text-accent-primary text-6xl">EduMango</h1>
+          <h1 className="text-center text-accent-primary text-6xl z-0">
+            EduMango
+          </h1>
         </Fade>
 
         <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2">

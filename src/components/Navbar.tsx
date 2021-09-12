@@ -69,7 +69,7 @@ export const Navbar: React.FC = () => {
           </div>
         </button>
       </nav>
-      <div className="relative md:flex">
+      <div className="relative md:flex z-40">
         <ul
           className={`absolute md:static w-max right-0 transform ${
             !isOpen && "hidden"
