@@ -12,10 +12,7 @@ export default function Donation() {
           Support Edumango
         </h1>
         <p className="text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
-          molestias repudiandae incidunt repellat veniam aut cumque soluta optio
-          modi omnis rerum tempora praesentium architecto error laboriosam
-          deleniti esse minima iste!
+          Under Maintainence
         </p>
       </div>
     </>
