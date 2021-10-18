@@ -43,6 +43,14 @@ export default function AboutUs() {
         "8th grader at Horner Middle School who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
       position: "Outreach Lead",
     },
+    {
+      name: "Abhimanyu Sharma",
+      avatar:
+        "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
+      description:
+        "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+      position: "Expansion Lead",
+    },
   ];
   const webDevProfiles = [
     {
@@ -64,14 +72,7 @@ export default function AboutUs() {
   ];
 
   const marketingProfiles = [
-    {
-      name: "Abhimanyu Sharma",
-      avatar:
-        "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
-      description:
-        "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
-      position: "Expansion Lead",
-    },
+
 
     {
       name: "Amay Singhania",
