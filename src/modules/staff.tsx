@@ -65,20 +65,20 @@ export default function AboutUs() {
 
   const marketingProfiles = [
     {
-      name: "Amay Singhania",
-      avatar:
-        "https://cdn.discordapp.com/attachments/775862443984551966/845806648505008158/unknown.png",
-      description:
-        "8th grader at Horner Middle School. Passionate about coding and Martial Arts. Enjoys reading and learning about technology.",
-      position: "Expansion",
-    },
-
-    {
       name: "Abhimanyu Sharma",
       avatar:
         "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
       description:
         "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+      position: "Expansion",
+    },
+
+    {
+      name: "Amay Singhania",
+      avatar:
+        "https://cdn.discordapp.com/attachments/775862443984551966/845806648505008158/unknown.png",
+      description:
+        "8th grader at Horner Middle School. Passionate about coding and Martial Arts. Enjoys reading and learning about technology.",
       position: "Expansion",
     },
 
