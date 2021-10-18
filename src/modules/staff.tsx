@@ -70,7 +70,7 @@ export default function AboutUs() {
         "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
       description:
         "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
-      position: "Expansion",
+      position: "Expansion Lead",
     },
 
     {
