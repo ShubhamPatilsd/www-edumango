@@ -9,7 +9,7 @@ export default function AboutUs() {
         "https://cdn.discordapp.com/attachments/832365353660317726/841128694139715624/unknown.png",
       description:
         "Rising Freshman at American High School. Passionate about helping the community through education. Interested in Biology and US History.",
-      position: "Founder~President~Math 6",
+      position: "Founder~President",
     },
     {
       name: "Devansh Daxini",
@@ -17,7 +17,7 @@ export default function AboutUs() {
         "https://cdn.discordapp.com/attachments/832365353660317726/841128925266837565/unknown.png",
       description:
         "Rising Freshman at Washington High School who enjoys playing basketball. His favorite subject is math. Loves playing video games and enjoys video editing.",
-      position: "Co-Founder~Vice-President~Spanish 1",
+      position: "Co-Founder~Vice-President",
     },
     {
       name: "Bhagya Arora",
@@ -25,7 +25,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841454173882155008/unknown.png",
       description:
         "Rising freshman at Foothill High School who loves building, coding, and biking. Enjoys learning new things, and sharing the knowledge with others.",
-      position: "Curriculum Lead~Marketing~Spanish 2",
+      position: "Curriculum Lead~Marketing",
     },
     {
       name: "Rushika Raval",
@@ -33,7 +33,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841454813786275880/unknown.png",
       description:
         "8th grader at Horner Middle School who is passionate about biology, psychology, and English studies. Avid reader, who plays tabla (Indian Classical Drums), and does Bharatnatyam (Indian Dance).",
-      position: "Co-Curriculum Lead~Literature",
+      position: "Co-Curriculum Lead",
     },
     {
       name: "Tithi Raval",
@@ -41,7 +41,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841455384526323752/unknown.png",
       description:
         "8th grader at Horner Middle School who is passionate about Java and Python programming as well as writing. Enjoys playing tabla (Indian classical drum), Bharatnatyam (Indian Dance), and art.",
-      position: "Outreach Lead~Literature",
+      position: "Outreach Lead",
     },
   ];
   const webDevProfiles = [
@@ -51,7 +51,7 @@ export default function AboutUs() {
         "https://cdn.discordapp.com/attachments/832365353660317726/841460312048795668/person.png",
       description:
         "Rising Freshman at Mission San Jose High School who enjoys programming. Enjoys trying and eating food from multiple cuisines, playing videogames, and watching movies as well. He is very curious and likes to learn new things about technology.",
-      position: "Web Development~Intro to Coding",
+      position: "Web Development",
     },
     {
       name: "Nikhil Mehta",
@@ -59,11 +59,20 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841455861925937242/unknown.png",
       description:
         "Rising Freshman at Mission San Jose High School who likes to play baseball, code, and enjoys doing CAD. Enjoys making apps and learning new skills.",
-      position: "Web Development~Intro to CAD~Expansion",
+      position: "Web Development",
     },
   ];
 
   const marketingProfiles = [
+    {
+      name: "Abhimanyu Sharma",
+      avatar:
+        "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
+      description:
+        "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
+      position: "Expansion Lead",
+    },
+
     {
       name: "Amay Singhania",
       avatar:
@@ -74,21 +83,12 @@ export default function AboutUs() {
     },
 
     {
-      name: "Abhimanyu Sharma",
-      avatar:
-        "https://cdn.discordapp.com/attachments/832365353660317726/841712617977282580/unknown.png",
-      description:
-        "Rising Freshman at Mission San Jose School. Enjoys Reading and Taekwondo. Has a deep interest in Coding and Engineering.",
-      position: "Speech and Debate~Expansion",
-    },
-
-    {
       name: "Rishabh Mahesh",
       avatar:
         "https://cdn.discordapp.com/attachments/832365353660317726/841129200584228904/unknown.png",
       description:
         "Rising Freshman at Mission San Jose High School who is interested in helping others and giving back to the community whenever possible. Likes learning about technology biology. Actively participates in speech and debates and have been part of a school science bowl team.",
-      position: "Speech and Debate~Algebra 1~Expansion",
+      position: "Expansion",
     },
   ];
 
@@ -99,7 +99,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841456224533086238/unknown.png",
       description:
         "Rising Freshman at Washington High School. Participated in a Tech Challenge team last year. Enjoys learning chess and world history.",
-      position: "Spanish 1",
+      position: "",
     },
 
     {
@@ -108,7 +108,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841456554058448946/unknown.png",
       description:
         "Rising Freshman at Washington High School. Loves to swim, dance, sing, and make videos. Has more than 500 subscribers on YouTube.",
-      position: "Spanish 2",
+      position: "",
     },
 
     {
@@ -117,7 +117,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841458011967848468/unknown.png",
       description:
         "Rising Freshman at Mission San Jose High School. Extremely passionate about guitar and music production! Favorite subject is English, and has a dream is to be an attorney.",
-      position: "Math 6",
+      position: "",
     },
 
     {
@@ -126,7 +126,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841456928714784778/unknown.png",
       description:
         "Rising Freshman at Mission San Jose High School. Enjoys reading, science, and math. Likes Indian classical dance and singing as well as tennis and playing the viola.",
-      position: "Math 5",
+      position: "",
     },
 
     {
@@ -135,7 +135,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841457774982594570/unknown.png",
       description:
         "Rising Freshman at Mission San Jose High School. Enjoys making music, doing any style of art, roller skating, and reading. Loves spending time with her family and helping out whenever she can.",
-      position: "Math 5",
+      position: "",
     },
 
     {
@@ -144,7 +144,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841458341939380234/unknown.png",
       description:
         "Rising freshman and Mission San Jose High School. Likes coding/robotics, math, and science. Participated in a school science bowl team and in multiple robotics competitions.",
-      position: "Pre-Algebra",
+      position: "",
     },
     {
       name: "Rishabh Manur",
@@ -152,7 +152,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/832365353660317726/841458907310587914/unknown.png",
       description:
         "Rising freshman at Mission San Jose High School. In his spare time, likes playing the tabla, playing tennis, listening to music, and gardening. Enjoys coding, robotics, and hanging out with his friends.",
-      position: "Algebra 1",
+      position: "",
     },
     {
       name: "Anish Polakala",
@@ -160,7 +160,7 @@ export default function AboutUs() {
         "https://media.discordapp.net/attachments/762751394138554419/853349684428537856/unknown.png",
       description:
         "Rising Freshman at Washington High School. Loves coding, chess, math, and science. Exuberant reader.",
-      position: "Pre-Algebra",
+      position: "",
     },
   ];
 

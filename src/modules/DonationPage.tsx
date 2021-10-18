@@ -12,8 +12,8 @@ export default function Donation() {
           Support Edumango
         </h1>
         <p className="text-center">
-	  Coming Soon        
-	</p>
+          Under Maintainence
+        </p>
       </div>
     </>
   );
