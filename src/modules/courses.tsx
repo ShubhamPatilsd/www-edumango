@@ -91,7 +91,7 @@ export default function Courses() {
       courseDescription:
         "Educating youth about Python, exploring algorithms, loops, and problem solving",
       startingDate: new Date("July 5 , 2022 13:00"),
-      grades: [5, 10],
+      grades: [5, 9],
       link: "https://forms.gle/B9GfXnQczqNkbVBy6",
       days: "Tuesday & Thursday",
     },
