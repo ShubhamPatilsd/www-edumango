@@ -72,7 +72,7 @@ export default function Courses() {
       courseName: "Intro to CAD",
       courseDescription:
         "CAD or Computer Aided design is the process of designing things in 3D on your computer. This is so you can visualize the models before you make them in real life. Almost all tech companies use CAD for designing products, which is why it is such a valuable skill to learn.",
-      startingDate: new Date("July 5 , 2022 9:00"),
+      startingDate: new Date("July 11 , 2022 9:00"),
       grades: [6, 9],
       link: "https://forms.gle/mg7kKMjsN1vsSV3X8",
       days: "Tuesday (9-10 am) and Friday (5-6 pm) ",
@@ -81,7 +81,7 @@ export default function Courses() {
       courseName: "Intro to Coding",
       courseDescription:
         "This class will get students started with the wonderful realm of coding. Students will learn a lot of concepts in the easiest and simplest way possible and know most of the AP Computer Science curriculum!",
-      startingDate: new Date("July 4 , 2022 11:00"),
+      startingDate: new Date("July 11 , 2022 11:00"),
       grades: [6, 9],
       link: "https://forms.gle/VdYvfg91mAUE6kct5",
       days: "Monday and Thursday",
