@@ -15,8 +15,9 @@ export default function AboutUs() {
     
     {
       name: "Devansh Daxini",
-      avatar:
-        "https://cdn.discordapp.com/attachments/832365353660317726/841128925266837565/unknown.png",
+     /*Change avatar image*/
+      /* avatar:
+        "https://cdn.discordapp.com/attachments/832365353660317726/841128925266837565/unknown.png", */
       description:
         "Sophomore at Washington High School who enjoys playing basketball. His favorite subject is math. Loves playing video games and enjoys video editing.",
       position: "Co-Founder~President",
