@@ -13,7 +13,7 @@ export default function Courses() {
       courseDescription:
         "A fun and exciting class where students will learn the basics of Spanish 1, to help the students excel in their first year of Spanish.",
       startingDate: new Date( "July 5 , 2022 9:00"),
-      grades: [6, 8],
+      grades: [6, 9],
       link: "https://forms.gle/SjRXQytU2S2ry9jP7",
       days: "Tuesday and Wednesday",
     },
@@ -26,6 +26,16 @@ export default function Courses() {
       link: "https://forms.gle/SBkSyNLr2XQym6Mp9",
       days: "Days - TBD",
     }, */
+
+    {
+      courseName: "French 1",
+      courseDescription:
+        "In this interactive, entertaining, and informational class, students will learn the topics to excell in their first year of French.",
+      startingDate: new Date(""),
+      grades: [6, 9],
+      link: "https://forms.gle/TQSkMmc55a1Rm9NN6",
+      days: "To be decided",
+    },
   ]; 
 
   const math = [
