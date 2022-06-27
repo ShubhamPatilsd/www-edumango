@@ -31,10 +31,10 @@ export default function Courses() {
       courseName: "French 1",
       courseDescription:
         "In this interactive, entertaining, and informational class, students will learn the topics to excel in their first year of French.",
-      startingDate: new Date(""),
+      startingDate: new Date("July 12 , 2022 15:00"),
       grades: [6, 9],
       link: "https://forms.gle/TQSkMmc55a1Rm9NN6",
-      days: "To be decided",
+      days: "Tuesday and Thursday",
     },
   ]; 
 
