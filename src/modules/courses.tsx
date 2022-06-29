@@ -115,7 +115,7 @@ export default function Courses() {
       startingDate: new Date("July 6 , 2022 10:00"),
       grades: [6, 9],
       link: "https://forms.gle/rhJGJrqyCoiUkcxM6",
-      days: "Wednesday & Thursday",
+      days: "Thursday",
     },
     {
       courseName: "Speech & Debate",

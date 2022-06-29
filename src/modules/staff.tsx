@@ -111,7 +111,18 @@ export default function AboutUs() {
         "Sophomore at Washington High School. Loves coding, chess, math, and science. Exuberant reader.",
       position: "",
     },
+
+    {
+      name: "Neha Sharma",
+      avatar:
+        "https://scontent-bom1-2.cdninstagram.com/v/t51.2885-15/290566642_1215456835886275_5972408409874789198_n.jpg?stp=dst-jpg_e35&cb=2d435ae8-4f3c5d8f&_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=107&_nc_ohc=0rhoewq8af4AX-SeT5X&edm=ABJHkxYAAAAA&ccb=7-5&ig_cache_key=Mjg3MTA5OTM5NDMyNjczNzAyMg%3D%3D.2-ccb7-5&oh=00_AT_OK8zyg7RzbqPVFEgUUTo5smTG4WRxvUX3xUWWrY_avQ&oe=62C38FA5&_nc_sid=fa978c",
+      description:
+        "I will be going to 9th grade in Mission San Jose High School. I am an avid reader and I enjoy baking. I am also very interested in neuroscience, and enjoy learning about it.",
+      position: "",
+    },
   ];
+
+  
 
   const formerProfiles = [
     
