@@ -120,6 +120,16 @@ export default function AboutUs() {
         "I will be going to 9th grade in Mission San Jose High School. I am an avid reader and I enjoy baking. I am also very interested in neuroscience, and enjoy learning about it.",
       position: "",
     },
+    
+    {
+      name: "Saunak Karnati",
+      avatar:
+        "https://cdn.discordapp.com/attachments/986065348170219580/996062459452461126/19C2C60A-AC7F-44AF-A976-109C9AE843B1_1.jpg",
+      description:
+        "9th grader at Irvington High school who is passionate about coding and has experience in various programming languages. Loves exploring lakes and forests in the area.",
+      position: "",
+    },
+
   ];
 
   
